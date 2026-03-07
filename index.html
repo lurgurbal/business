@@ -1,0 +1,1199 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>Les meilleurs outils IA gratuits en 2026 | IAGratuite.fr</title>
+  <meta name="description" content="Découvrez les meilleurs outils IA gratuits en 2026. Guides, comparatifs et tutoriels sur les intelligences artificielles gratuites pour étudiants, pros et créatifs."/>
+  <meta name="keywords" content="outils IA gratuits, meilleurs outils IA, IA gratuite 2026, intelligence artificielle gratuite, ChatGPT gratuit, IA pour étudiants"/>
+  <meta name="robots" content="index, follow"/>
+  <link rel="canonical" href="https://iagratuite.fr/"/>
+  <meta property="og:title" content="Les meilleurs outils IA gratuits en 2026"/>
+  <meta property="og:description" content="Guides et comparatifs des meilleurs outils IA gratuits pour 2026."/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="https://iagratuite.fr/"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <style>
+    :root{
+      --b9:#0a1628;--b8:#0f2147;--b6:#1a56db;--b5:#2563eb;--b4:#3b82f6;
+      --b1:#dbeafe;--b0:#eff6ff;--ac:#06b6d4;--wh:#fff;
+      --g0:#f9fafb;--g1:#f3f4f6;--g2:#e5e7eb;--g4:#9ca3af;--g6:#4b5563;--g8:#1f2937;
+      --tx:#111827;--r:12px;--sh:0 4px 24px rgba(37,99,235,.10);--shl:0 12px 48px rgba(37,99,235,.15);
+    }
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{font-family:'DM Sans',sans-serif;background:var(--wh);color:var(--tx);font-size:16px;line-height:1.7}
+    h1,h2,h3,h4{font-family:'Syne',sans-serif;line-height:1.2}
+    a{color:inherit;text-decoration:none}
+    img{max-width:100%;display:block}
+
+    /* NAV */
+    nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.93);backdrop-filter:blur(12px);border-bottom:1px solid var(--g2)}
+    .nav-inner{max-width:1280px;margin:0 auto;padding:0 24px;display:flex;align-items:center;justify-content:space-between;height:64px}
+    .logo{font-family:'Syne',sans-serif;font-weight:800;font-size:1.15rem;color:var(--b5);display:flex;align-items:center;gap:8px;cursor:pointer}
+    .logo-icon{width:32px;height:32px;background:linear-gradient(135deg,var(--b5),var(--ac));border-radius:8px;display:flex;align-items:center;justify-content:center;color:#fff;font-size:.9rem}
+    .logo span{color:var(--tx)}
+    .nav-links{display:flex;align-items:center;gap:28px;list-style:none}
+    .nav-links a{font-size:.88rem;font-weight:500;color:var(--g6);transition:color .2s;cursor:pointer}
+    .nav-links a:hover,.nav-links a.active{color:var(--b5)}
+    .nav-cta{background:var(--b5)!important;color:#fff!important;padding:8px 18px;border-radius:8px;font-weight:600!important}
+    .nav-cta:hover{background:var(--b6)!important}
+    .hamburger{display:none;cursor:pointer;flex-direction:column;gap:5px;padding:4px}
+    .hamburger span{display:block;width:22px;height:2px;background:var(--g8);border-radius:2px}
+
+    /* PAGES */
+    .page{display:none}.page.active{display:block}
+
+    /* HERO */
+    .hero{background:linear-gradient(135deg,var(--b9) 0%,#1e3a8a 50%,#1e40af 100%);padding:90px 24px 70px;text-align:center;position:relative;overflow:hidden}
+    .hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 30% 50%,rgba(6,182,212,.2) 0%,transparent 60%),radial-gradient(ellipse at 70% 30%,rgba(139,92,246,.15) 0%,transparent 50%)}
+    .hero-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);color:var(--ac);font-size:.78rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:6px 16px;border-radius:100px;margin-bottom:22px;position:relative}
+    .hero h1{font-size:clamp(1.9rem,5vw,3.4rem);color:#fff;max-width:780px;margin:0 auto 18px;position:relative}
+    .hero h1 em{font-style:normal;background:linear-gradient(90deg,var(--ac),var(--b4));background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+    .hero-sub{font-size:1.05rem;color:rgba(255,255,255,.75);max-width:580px;margin:0 auto 36px;position:relative}
+    .hero-btns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;position:relative}
+    .btn{display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:10px;font-family:'Syne',sans-serif;font-size:.9rem;font-weight:700;cursor:pointer;transition:all .2s;border:none}
+    .btn-primary{background:var(--b4);color:#fff}
+    .btn-primary:hover{background:var(--b5);transform:translateY(-2px);box-shadow:0 8px 24px rgba(59,130,246,.4)}
+    .btn-outline{background:transparent;color:#fff;border:2px solid rgba(255,255,255,.4)}
+    .btn-outline:hover{background:rgba(255,255,255,.1);transform:translateY(-2px)}
+    .hero-stats{display:flex;justify-content:center;gap:48px;margin-top:52px;position:relative}
+    .stat{text-align:center}
+    .stat-num{font-family:'Syne',sans-serif;font-size:1.8rem;font-weight:800;color:#fff}
+    .stat-label{font-size:.78rem;color:rgba(255,255,255,.6)}
+
+    /* LAYOUT */
+    section{padding:72px 24px}
+    .container{max-width:1280px;margin:0 auto}
+    .section-label{font-size:.75rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--b5);margin-bottom:10px}
+    .section-title{font-size:clamp(1.5rem,3vw,2.2rem);color:var(--tx);margin-bottom:14px}
+    .section-sub{color:var(--g6);max-width:540px;margin-bottom:44px}
+
+    /* TOOLS GRID */
+    .tools-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:22px}
+    .tool-card{border:1px solid var(--g2);border-radius:var(--r);padding:26px;background:#fff;transition:all .25s;cursor:pointer}
+    .tool-card:hover{border-color:var(--b4);box-shadow:var(--shl);transform:translateY(-4px)}
+    .tool-header{display:flex;align-items:center;gap:14px;margin-bottom:14px}
+    .tool-logo{width:46px;height:46px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:1.3rem;font-weight:800}
+    .tool-name{font-family:'Syne',sans-serif;font-size:1.05rem;font-weight:700}
+    .tool-tag{font-size:.7rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:3px 10px;border-radius:100px}
+    .tool-desc{font-size:.88rem;color:var(--g6);margin-bottom:16px}
+    .tool-features{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:18px}
+    .fp{font-size:.73rem;background:var(--g1);color:var(--g6);padding:4px 10px;border-radius:100px}
+    .tool-footer{display:flex;justify-content:space-between;align-items:center}
+    .stars{color:#f59e0b;font-size:.82rem}
+    .rating-label{font-size:.78rem;color:var(--g4);margin-left:4px}
+    .tool-link{font-size:.82rem;font-weight:600;color:var(--b5)}
+
+    /* AD */
+    .ad-banner{background:var(--g1);border:1px dashed var(--g4);border-radius:var(--r);padding:22px;text-align:center;color:var(--g4);font-size:.82rem;margin:36px 0}
+    .ad-banner strong{display:block;font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;margin-bottom:5px}
+    .ad-wide{height:110px;display:flex;flex-direction:column;align-items:center;justify-content:center}
+    .ad-sidebar{height:260px;display:flex;flex-direction:column;align-items:center;justify-content:center}
+
+    /* BLOG GRID */
+    .blog-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:24px}
+    .article-card{border:1px solid var(--g2);border-radius:var(--r);overflow:hidden;background:#fff;transition:all .25s;cursor:pointer}
+    .article-card:hover{box-shadow:var(--shl);transform:translateY(-4px);border-color:var(--b1)}
+    .article-thumb{height:160px;display:flex;align-items:center;justify-content:center;font-size:3rem}
+    .article-body{padding:22px}
+    .article-cat{font-size:.72rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--b5);margin-bottom:8px}
+    .article-title{font-family:'Syne',sans-serif;font-size:1.05rem;font-weight:700;margin-bottom:8px;line-height:1.35}
+    .article-excerpt{font-size:.85rem;color:var(--g6);margin-bottom:16px}
+    .article-meta{display:flex;align-items:center;justify-content:space-between;font-size:.78rem;color:var(--g4)}
+    .read-more{font-size:.82rem;font-weight:600;color:var(--b5)}
+
+    /* FOOTER */
+    footer{background:var(--b9);padding:56px 24px 28px;color:rgba(255,255,255,.55)}
+    .footer-grid{max-width:1280px;margin:0 auto;display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:44px;margin-bottom:44px}
+    .footer-logo{color:#fff;font-family:'Syne',sans-serif;font-size:1.15rem;font-weight:800;margin-bottom:10px}
+    footer h4{color:#fff;font-family:'Syne',sans-serif;font-size:.88rem;margin-bottom:14px}
+    footer ul{list-style:none;display:flex;flex-direction:column;gap:9px}
+    footer ul li a{font-size:.85rem;color:rgba(255,255,255,.5);transition:color .2s;cursor:pointer}
+    footer ul li a:hover{color:var(--b4)}
+    .footer-bottom{max-width:1280px;margin:0 auto;padding-top:22px;border-top:1px solid rgba(255,255,255,.08);display:flex;justify-content:space-between;align-items:center;font-size:.78rem;flex-wrap:wrap;gap:10px}
+
+    /* PAGE HERO */
+    .page-hero{background:var(--b0);padding:56px 24px 36px;text-align:center;border-bottom:1px solid var(--b1)}
+    .page-hero h1{font-size:clamp(1.7rem,4vw,2.6rem);margin-bottom:10px}
+    .page-hero p{color:var(--g6);max-width:540px;margin:0 auto}
+
+    /* BLOG PAGE */
+    .filter-bar{display:flex;gap:9px;flex-wrap:wrap;padding:22px 24px 0;max-width:1280px;margin:0 auto}
+    .filter-btn{font-size:.8rem;font-weight:600;padding:7px 16px;border-radius:100px;cursor:pointer;border:1px solid var(--g2);background:#fff;color:var(--g6);transition:all .2s}
+    .filter-btn.active,.filter-btn:hover{background:var(--b5);color:#fff;border-color:var(--b5)}
+
+    /* ARTICLE LAYOUT */
+    .article-layout{max-width:1280px;margin:0 auto;padding:56px 24px;display:grid;grid-template-columns:1fr 300px;gap:56px}
+    .article-main h1{font-size:clamp(1.7rem,3.5vw,2.4rem);margin-bottom:14px}
+    .article-intro{font-size:1.05rem;color:var(--g6);margin-bottom:32px;border-left:4px solid var(--b4);padding-left:18px}
+    .article-main h2{font-size:1.4rem;margin:36px 0 14px;color:#1e3a8a}
+    .article-main h3{font-size:1.05rem;margin:22px 0 8px}
+    .article-main p{margin-bottom:14px;color:#374151}
+    .article-main ul,.article-main ol{padding-left:20px;margin-bottom:14px}
+    .article-main ul li,.article-main ol li{margin-bottom:7px;color:#374151}
+    .pros-cons{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:22px 0}
+    .pros{background:#f0fdf4;border:1px solid #bbf7d0;border-radius:var(--r);padding:18px}
+    .cons{background:#fff7ed;border:1px solid #fed7aa;border-radius:var(--r);padding:18px}
+    .pros h4{color:#166534;margin-bottom:8px}
+    .cons h4{color:#9a3412;margin-bottom:8px}
+    .pros ul,.cons ul{list-style:none;padding:0}
+    .pros ul li::before{content:'✓ ';color:#16a34a;font-weight:700}
+    .cons ul li::before{content:'✗ ';color:#ea580c;font-weight:700}
+    .how-to{background:var(--b0);border-radius:var(--r);padding:22px;margin:22px 0}
+    .how-to h3{color:#1d4ed8;margin-bottom:14px}
+    .step{display:flex;gap:14px;margin-bottom:12px;align-items:flex-start}
+    .step-num{min-width:26px;height:26px;background:var(--b5);color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.78rem;font-weight:700;margin-top:2px}
+    .sidebar-widget{background:var(--g0);border:1px solid var(--g2);border-radius:var(--r);padding:22px;margin-bottom:22px}
+    .sidebar-widget h3{font-size:.95rem;margin-bottom:14px}
+    .sidebar-art{display:flex;gap:12px;margin-bottom:12px;cursor:pointer}
+    .sidebar-thumb{width:44px;height:44px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:1.2rem;flex-shrink:0}
+    .sidebar-art p{font-size:.8rem;font-weight:600;line-height:1.3}
+    .sidebar-art span{font-size:.72rem;color:var(--g4)}
+
+    /* ABOUT */
+    .about-content{max-width:820px;margin:0 auto;padding:56px 24px}
+    .about-content h2{font-size:1.7rem;margin:32px 0 12px;color:#1e3a8a}
+    .about-content p{color:#374151;margin-bottom:14px}
+
+    /* CONTACT */
+    .contact-layout{max-width:920px;margin:0 auto;padding:56px 24px;display:grid;grid-template-columns:1fr 1.2fr;gap:56px}
+    .contact-info h2{font-size:1.7rem;margin-bottom:12px}
+    .contact-info p{color:var(--g6);margin-bottom:22px}
+    .contact-item{display:flex;gap:12px;align-items:flex-start;margin-bottom:18px}
+    .contact-icon{width:38px;height:38px;background:var(--b0);border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:1rem}
+    .contact-item strong{display:block;font-size:.88rem;margin-bottom:2px}
+    .contact-item span{font-size:.82rem;color:var(--g6)}
+    .form-group{margin-bottom:18px}
+    .form-label{display:block;font-size:.82rem;font-weight:600;margin-bottom:7px;color:#374151}
+    .form-input,.form-textarea{width:100%;padding:11px 14px;border:1px solid var(--g2);border-radius:8px;font-family:'DM Sans',sans-serif;font-size:.92rem;color:var(--tx);background:#fff;transition:border-color .2s,box-shadow .2s}
+    .form-input:focus,.form-textarea:focus{outline:none;border-color:var(--b4);box-shadow:0 0 0 3px rgba(59,130,246,.1)}
+    .form-textarea{height:130px;resize:vertical}
+    .form-success{display:none;background:#f0fdf4;border:1px solid #bbf7d0;border-radius:8px;padding:14px;color:#166534;font-size:.88rem;margin-top:10px}
+
+    /* GSC PAGE */
+    .gsc-layout{max-width:860px;margin:0 auto;padding:56px 24px}
+    .gsc-layout h2{font-size:1.5rem;margin:32px 0 12px;color:#1e3a8a}
+    .gsc-layout p{color:#374151;margin-bottom:14px}
+    .gsc-step-box{background:var(--b0);border:1px solid var(--b1);border-radius:var(--r);padding:22px;margin:22px 0}
+    .gsc-step-box h3{color:#1d4ed8;margin-bottom:14px}
+    .tip-box{background:#fffbeb;border:1px solid #fde68a;border-radius:var(--r);padding:18px;margin:18px 0;font-size:.9rem}
+    .tip-box strong{color:#92400e}
+    .warn-box{background:#fff7ed;border:1px solid #fed7aa;border-radius:var(--r);padding:18px;margin:18px 0;font-size:.9rem}
+
+    /* SITEMAP PAGE */
+    .sitemap-layout{max-width:960px;margin:0 auto;padding:56px 24px}
+    .sitemap-layout h2{font-size:1.4rem;margin:28px 0 12px;color:#1e3a8a}
+    .sitemap-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px;margin-bottom:24px}
+    .sitemap-item{background:var(--g0);border:1px solid var(--g2);border-radius:10px;padding:14px 18px;cursor:pointer;transition:all .2s}
+    .sitemap-item:hover{border-color:var(--b4);background:var(--b0)}
+    .sitemap-item .si-title{font-weight:600;font-size:.9rem;margin-bottom:4px}
+    .sitemap-item .si-url{font-size:.75rem;color:var(--b5)}
+    .sitemap-item .si-cat{font-size:.7rem;color:var(--g4)}
+
+    /* CTA */
+    .cta-section{background:linear-gradient(135deg,var(--b6),#1e40af);padding:72px 24px;text-align:center}
+    .cta-section h2{color:#fff;font-size:clamp(1.5rem,3vw,2.1rem);margin-bottom:12px}
+    .cta-section p{color:rgba(255,255,255,.8);max-width:480px;margin:0 auto 28px}
+
+    /* INTRO SECTION */
+    .intro-section{background:var(--g0)}
+    .intro-grid{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+    .intro-visual{background:linear-gradient(135deg,var(--b0),var(--b1));border-radius:22px;padding:36px;border:1px solid #bfdbfe}
+    .ai-card{background:#fff;border-radius:12px;padding:14px 18px;margin-bottom:10px;display:flex;align-items:center;gap:14px;box-shadow:0 2px 12px rgba(0,0,0,.06)}
+    .ai-icon{width:38px;height:38px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:1.1rem;flex-shrink:0}
+    .ai-card p{font-size:.82rem;color:var(--g6);margin-top:2px}
+    .ai-card strong{font-size:.9rem}
+    .check-list{list-style:none;display:flex;flex-direction:column;gap:12px}
+    .check-list li{display:flex;gap:10px;align-items:flex-start}
+    .check-list li::before{content:'✓';min-width:22px;height:22px;background:var(--b0);color:var(--b5);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.75rem;font-weight:700;margin-top:2px}
+
+    /* MOBILE */
+    .mobile-menu{display:none;position:fixed;inset:0;z-index:200;background:rgba(0,0,0,.5)}
+    .mobile-menu.open{display:block}
+    .mobile-panel{position:absolute;top:0;right:0;width:270px;height:100%;background:#fff;padding:72px 28px 28px;display:flex;flex-direction:column;gap:22px}
+    .mobile-panel a{font-family:'Syne',sans-serif;font-size:1.1rem;font-weight:700;color:var(--tx);cursor:pointer}
+    .mobile-close{position:absolute;top:18px;right:22px;font-size:1.4rem;cursor:pointer;color:var(--g6)}
+
+    /* PAGINATION */
+    .pagination{display:flex;justify-content:center;gap:8px;margin-top:44px}
+    .page-btn{width:36px;height:36px;border-radius:8px;border:1px solid var(--g2);background:#fff;cursor:pointer;font-size:.88rem;font-weight:600;display:flex;align-items:center;justify-content:center;transition:all .2s}
+    .page-btn.active,.page-btn:hover{background:var(--b5);color:#fff;border-color:var(--b5)}
+
+    @keyframes fadeUp{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
+    .fu{animation:fadeUp .5s ease forwards}
+    .d1{animation-delay:.1s;opacity:0}.d2{animation-delay:.2s;opacity:0}.d3{animation-delay:.3s;opacity:0}
+
+    @media(max-width:960px){
+      .intro-grid,.article-layout,.contact-layout{grid-template-columns:1fr}
+      .footer-grid{grid-template-columns:1fr 1fr;gap:28px}
+      .article-sidebar{display:none}
+    }
+    @media(max-width:640px){
+      .nav-links{display:none}.hamburger{display:flex}
+      .hero-stats{gap:22px}
+      .pros-cons{grid-template-columns:1fr}
+      .footer-grid{grid-template-columns:1fr}
+      .contact-layout{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-inner">
+    <div class="logo" onclick="showPage('home')">
+      <div class="logo-icon">🤖</div>IA<span>Gratuite.fr</span>
+    </div>
+    <ul class="nav-links">
+      <li><a class="active" onclick="showPage('home');setActive(this)">Accueil</a></li>
+      <li><a onclick="showPage('blog');setActive(this)">Blog</a></li>
+      <li><a onclick="showPage('sitemap');setActive(this)">Tous les articles</a></li>
+      <li><a onclick="showPage('gsc');setActive(this)">🔍 Search Console</a></li>
+      <li><a onclick="showPage('about');setActive(this)">À propos</a></li>
+      <li><a class="nav-cta" onclick="showPage('contact');setActive(this)">Contact</a></li>
+    </ul>
+    <div class="hamburger" onclick="document.getElementById('mob').classList.add('open')">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mob">
+  <div class="mobile-panel">
+    <span class="mobile-close" onclick="document.getElementById('mob').classList.remove('open')">✕</span>
+    <a onclick="showPage('home');document.getElementById('mob').classList.remove('open')">🏠 Accueil</a>
+    <a onclick="showPage('blog');document.getElementById('mob').classList.remove('open')">📝 Blog</a>
+    <a onclick="showPage('sitemap');document.getElementById('mob').classList.remove('open')">🗂️ Tous les articles</a>
+    <a onclick="showPage('gsc');document.getElementById('mob').classList.remove('open')">🔍 Search Console</a>
+    <a onclick="showPage('about');document.getElementById('mob').classList.remove('open')">ℹ️ À propos</a>
+    <a onclick="showPage('contact');document.getElementById('mob').classList.remove('open')">✉️ Contact</a>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════ HOME -->
+<div id="page-home" class="page active">
+  <section class="hero">
+    <div class="hero-badge">✨ Guide mis à jour — Mars 2026</div>
+    <h1 class="fu">Les meilleurs <em>outils IA gratuits</em> en 2026</h1>
+    <p class="hero-sub fu d1">Découvrez les intelligences artificielles les plus puissantes — 100% gratuites — pour étudiants, professionnels et créatifs. 30 articles de guides et comparatifs.</p>
+    <div class="hero-btns fu d2">
+      <button class="btn btn-primary" onclick="showPage('blog')">📖 Lire le blog</button>
+      <button class="btn btn-outline" onclick="showPage('sitemap')">🗂️ Voir les 30 articles</button>
+    </div>
+    <div class="hero-stats fu d3">
+      <div class="stat"><div class="stat-num">30</div><div class="stat-label">Articles SEO</div></div>
+      <div class="stat"><div class="stat-num">50+</div><div class="stat-label">Outils testés</div></div>
+      <div class="stat"><div class="stat-num">100%</div><div class="stat-label">Gratuits</div></div>
+    </div>
+  </section>
+
+  <div class="container"><div class="ad-banner ad-wide"><strong>Google AdSense — 728×90</strong>Espace publicitaire Leaderboard</div></div>
+
+  <section class="intro-section">
+    <div class="container">
+      <div class="intro-grid">
+        <div>
+          <div class="section-label">C'est quoi l'IA ?</div>
+          <h2 class="section-title">L'intelligence artificielle, accessible à tous</h2>
+          <p style="color:var(--g6);margin-bottom:20px">Les outils IA sont des logiciels capables de comprendre, générer et analyser du texte, des images et de la voix — sans compétences techniques requises.</p>
+          <p style="color:var(--g6);margin-bottom:28px">En 2026, des dizaines d'outils IA professionnels sont entièrement gratuits. Ce site vous aide à les découvrir et à les maîtriser.</p>
+          <ul class="check-list">
+            <li>Générer des textes, emails et articles en quelques secondes</li>
+            <li>Créer des images époustouflantes sans compétences en design</li>
+            <li>Automatiser vos tâches répétitives au travail ou à l'école</li>
+            <li>Apprendre plus vite grâce à des tuteurs IA disponibles 24/7</li>
+          </ul>
+        </div>
+        <div class="intro-visual">
+          <div class="ai-card"><div class="ai-icon" style="background:#f0f9ff">💬</div><div><strong>Chatbot IA</strong><p>Répondez à toutes vos questions</p></div></div>
+          <div class="ai-card"><div class="ai-icon" style="background:#fdf4ff">🎨</div><div><strong>Génération d'images</strong><p>Créez des visuels uniques</p></div></div>
+          <div class="ai-card"><div class="ai-icon" style="background:#f0fdf4">✍️</div><div><strong>Rédaction assistée</strong><p>Écrivez plus vite et mieux</p></div></div>
+          <div class="ai-card"><div class="ai-icon" style="background:#fffbeb">📊</div><div><strong>Analyse de données</strong><p>Interprétez vos documents</p></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Tools -->
+  <section>
+    <div class="container">
+      <div class="section-label">Sélection éditoriale</div>
+      <h2 class="section-title">Outils IA gratuits incontournables</h2>
+      <p class="section-sub">Testés et approuvés par notre équipe — les meilleurs outils IA gratuits de 2026.</p>
+      <div class="tools-grid" id="tools-grid"></div>
+    </div>
+  </section>
+
+  <div class="container"><div class="ad-banner ad-wide"><strong>Google AdSense — 728×90</strong>Espace publicitaire In-content</div></div>
+
+  <!-- Latest Articles (12 on home) -->
+  <section style="background:var(--g0)">
+    <div class="container">
+      <div class="section-label">Derniers articles</div>
+      <h2 class="section-title">Le blog des outils IA gratuits</h2>
+      <p class="section-sub">Guides, comparatifs et tutoriels pour tirer le meilleur de l'IA gratuitement.</p>
+      <div class="blog-grid" id="home-articles"></div>
+      <div style="text-align:center;margin-top:36px">
+        <button class="btn btn-primary" onclick="showPage('sitemap')">Voir les 30 articles →</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Search Console CTA -->
+  <section style="background:#fffbeb;border-top:1px solid #fde68a;border-bottom:1px solid #fde68a;padding:48px 24px">
+    <div class="container" style="display:flex;align-items:center;gap:32px;flex-wrap:wrap">
+      <div style="font-size:3rem">🔍</div>
+      <div style="flex:1;min-width:260px">
+        <h3 style="font-family:'Syne',sans-serif;font-size:1.3rem;margin-bottom:8px;color:#92400e">Ne laissez pas Google ignorer votre site !</h3>
+        <p style="color:#78350f;font-size:.92rem">Google Search Console est <strong>gratuit et indispensable</strong>. Sans lui, Google peut ne jamais indexer vos articles. Configuration en 5 minutes.</p>
+      </div>
+      <button class="btn btn-primary" style="background:#d97706;flex-shrink:0" onclick="showPage('gsc')">Configurer Search Console →</button>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <div class="container">
+      <h2>Restez informé des meilleurs outils IA gratuits</h2>
+      <p>Rejoignez 15 000+ lecteurs — notre newsletter hebdomadaire, 100% gratuite.</p>
+      <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+        <input type="email" placeholder="votre@email.fr" style="padding:13px 18px;border-radius:10px;border:none;font-size:.92rem;min-width:260px;font-family:'DM Sans',sans-serif"/>
+        <button class="btn btn-primary">S'abonner gratuitement</button>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ═══════════════════════════════ BLOG PAGE -->
+<div id="page-blog" class="page">
+  <div class="page-hero">
+    <h1>Le blog des outils IA gratuits</h1>
+    <p>30 articles · Guides pratiques, comparatifs et actualités sur les meilleurs outils IA gratuits en 2026.</p>
+  </div>
+  <div class="filter-bar" id="filter-bar"></div>
+  <section>
+    <div class="container">
+      <div class="ad-banner ad-wide"><strong>Google AdSense — 728×90</strong>Espace publicitaire</div>
+      <div class="blog-grid" id="blog-articles" style="margin-top:28px"></div>
+      <div class="pagination" id="blog-pagination"></div>
+    </div>
+  </section>
+</div>
+
+<!-- ═══════════════════════════════ SITEMAP PAGE -->
+<div id="page-sitemap" class="page">
+  <div class="page-hero">
+    <h1>🗂️ Tous les articles — Plan du site</h1>
+    <p>30 articles organisés par catégorie. Cliquez sur un article pour le lire.</p>
+  </div>
+  <div class="sitemap-layout">
+    <div class="ad-banner ad-wide"><strong>Google AdSense — 728×90</strong>Espace publicitaire</div>
+    <div id="sitemap-content"></div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════ GOOGLE SEARCH CONSOLE PAGE -->
+<div id="page-gsc" class="page">
+  <div class="page-hero">
+    <h1>🔍 Google Search Console — Guide complet</h1>
+    <p>Indispensable pour que Google trouve et indexe votre site. Configuration pas-à-pas, gratuit.</p>
+  </div>
+  <div class="gsc-layout">
+    <div class="warn-box">
+      ⚠️ <strong>Très important :</strong> Sans Google Search Console, Google peut ne jamais trouver votre site, même après des mois. C'est l'étape n°1 pour tout nouveau site.
+    </div>
+
+    <h2>Qu'est-ce que Google Search Console ?</h2>
+    <p>Google Search Console (GSC) est un outil gratuit de Google qui vous permet de :</p>
+    <ul style="padding-left:20px;margin-bottom:14px;color:#374151">
+      <li style="margin-bottom:8px">Dire à Google que votre site existe et lui demander de l'indexer</li>
+      <li style="margin-bottom:8px">Voir quels mots-clés amènent des visiteurs sur votre site</li>
+      <li style="margin-bottom:8px">Détecter et corriger les erreurs techniques SEO</li>
+      <li style="margin-bottom:8px">Soumettre votre sitemap XML pour accélérer l'indexation</li>
+      <li style="margin-bottom:8px">Surveiller votre positionnement dans les résultats Google</li>
+    </ul>
+
+    <h2>Étape 1 — Créer votre compte Google Search Console</h2>
+    <div class="gsc-step-box">
+      <h3>🚀 Configuration initiale</h3>
+      <div class="step"><div class="step-num">1</div><p>Allez sur <strong>search.google.com/search-console</strong> et connectez-vous avec votre compte Google.</p></div>
+      <div class="step"><div class="step-num">2</div><p>Cliquez sur <strong>"Ajouter une propriété"</strong> en haut à gauche.</p></div>
+      <div class="step"><div class="step-num">3</div><p>Choisissez <strong>"Préfixe de l'URL"</strong> et entrez l'adresse de votre site (ex : https://iagratuite.fr).</p></div>
+      <div class="step"><div class="step-num">4</div><p>Cliquez sur <strong>"Continuer"</strong>.</p></div>
+    </div>
+
+    <h2>Étape 2 — Vérifier que vous êtes propriétaire du site</h2>
+    <p>Google doit s'assurer que vous êtes bien le propriétaire du site avant de vous donner accès aux données. Plusieurs méthodes existent :</p>
+    <div class="gsc-step-box">
+      <h3>✅ Méthode recommandée : Balise HTML</h3>
+      <div class="step"><div class="step-num">1</div><p>Dans GSC, choisissez <strong>"Balise HTML"</strong> comme méthode de vérification.</p></div>
+      <div class="step"><div class="step-num">2</div><p>Copiez la balise fournie par Google. Elle ressemble à : <code style="background:var(--g1);padding:2px 8px;border-radius:4px;font-size:.85rem">&lt;meta name="google-site-verification" content="VOTRE_CODE"/&gt;</code></p></div>
+      <div class="step"><div class="step-num">3</div><p>Collez-la dans le <code>&lt;head&gt;</code> de votre fichier HTML, juste avant la fermeture <code>&lt;/head&gt;</code>.</p></div>
+      <div class="step"><div class="step-num">4</div><p>Publiez votre site mis à jour, puis cliquez sur <strong>"Vérifier"</strong> dans GSC.</p></div>
+    </div>
+    <div class="tip-box">
+      💡 <strong>Astuce :</strong> Si vous utilisez WordPress, installez le plugin <strong>Site Kit by Google</strong> — il connecte automatiquement GSC, Analytics et AdSense en quelques clics, sans toucher au code.
+    </div>
+
+    <h2>Étape 3 — Soumettre votre Sitemap XML</h2>
+    <p>Un sitemap est une liste de toutes vos pages que vous envoyez à Google pour qu'il les découvre plus vite. C'est crucial pour un nouveau site.</p>
+    <div class="gsc-step-box">
+      <h3>🗺️ Soumettre votre sitemap</h3>
+      <div class="step"><div class="step-num">1</div><p>Dans GSC, cliquez sur <strong>"Sitemaps"</strong> dans le menu de gauche.</p></div>
+      <div class="step"><div class="step-num">2</div><p>Entrez l'URL de votre sitemap dans le champ. En général : <code style="background:var(--g1);padding:2px 8px;border-radius:4px;font-size:.85rem">sitemap.xml</code> ou <code style="background:var(--g1);padding:2px 8px;border-radius:4px;font-size:.85rem">sitemap_index.xml</code></p></div>
+      <div class="step"><div class="step-num">3</div><p>Cliquez sur <strong>"Envoyer"</strong>. Google va maintenant parcourir votre sitemap et découvrir toutes vos pages.</p></div>
+      <div class="step"><div class="step-num">4</div><p>Le statut passera à <strong>"Succès"</strong> dans les heures ou jours qui suivent.</p></div>
+    </div>
+
+    <h2>Étape 4 — Demander l'indexation de vos articles</h2>
+    <p>Même avec un sitemap, vous pouvez accélérer l'indexation de vos nouveaux articles en les soumettant manuellement.</p>
+    <div class="gsc-step-box">
+      <h3>⚡ Demande d'indexation manuelle</h3>
+      <div class="step"><div class="step-num">1</div><p>Dans GSC, cliquez sur la barre de recherche en haut de page (l'outil "Inspection de l'URL").</p></div>
+      <div class="step"><div class="step-num">2</div><p>Entrez l'URL exacte de votre article (ex : https://iagratuite.fr/top-10-outils-ia-gratuits).</p></div>
+      <div class="step"><div class="step-num">3</div><p>Cliquez sur <strong>"Demander l'indexation"</strong>.</p></div>
+      <div class="step"><div class="step-num">4</div><p>Répétez cette opération pour chacun de vos 30 articles.</p></div>
+    </div>
+    <div class="tip-box">
+      💡 <strong>Délai réaliste :</strong> L'indexation prend en général <strong>1 à 14 jours</strong> pour un nouveau site. Soyez patient. Le trafic SEO met 2 à 3 mois à démarrer — c'est normal.
+    </div>
+
+    <h2>Étape 5 — Créer votre Sitemap XML</h2>
+    <p>Si votre site est en HTML pur (comme celui-ci), vous devez créer votre sitemap manuellement. Voici un exemple de sitemap XML à adapter :</p>
+    <pre style="background:var(--g1);border-radius:var(--r);padding:18px;overflow-x:auto;font-size:.8rem;margin:16px 0;color:var(--g8)">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"&gt;
+  &lt;url&gt;
+    &lt;loc&gt;https://iagratuite.fr/&lt;/loc&gt;
+    &lt;changefreq&gt;weekly&lt;/changefreq&gt;
+    &lt;priority&gt;1.0&lt;/priority&gt;
+  &lt;/url&gt;
+  &lt;url&gt;
+    &lt;loc&gt;https://iagratuite.fr/top-10-outils-ia-gratuits&lt;/loc&gt;
+    &lt;changefreq&gt;monthly&lt;/changefreq&gt;
+    &lt;priority&gt;0.9&lt;/priority&gt;
+  &lt;/url&gt;
+  &lt;!-- Répétez pour chaque article --&gt;
+&lt;/urlset&gt;</pre>
+
+    <h2>Métriques à surveiller dans GSC</h2>
+    <div class="gsc-step-box">
+      <h3>📊 Tableau de bord GSC — ce qui compte</h3>
+      <ul style="list-style:none;padding:0">
+        <li style="margin-bottom:12px">📈 <strong>Clics :</strong> Nombre de fois que les internautes cliquent sur votre site dans Google</li>
+        <li style="margin-bottom:12px">👁️ <strong>Impressions :</strong> Nombre de fois que votre site apparaît dans les résultats Google</li>
+        <li style="margin-bottom:12px">📊 <strong>CTR :</strong> Taux de clics (clics ÷ impressions). Visez 3–5% minimum</li>
+        <li style="margin-bottom:12px">🏆 <strong>Position moyenne :</strong> Votre rang moyen dans les résultats. Top 10 = première page Google</li>
+        <li style="margin-bottom:12px">🔑 <strong>Requêtes :</strong> Les mots-clés qui amènent des visiteurs — ajustez vos articles en conséquence</li>
+      </ul>
+    </div>
+
+    <h2>Calendrier réaliste pour un nouveau site</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:14px;margin:16px 0">
+      <div style="background:#f0fdf4;border:1px solid #bbf7d0;border-radius:var(--r);padding:18px">
+        <div style="font-size:1.4rem;margin-bottom:8px">📝</div>
+        <strong style="font-size:.88rem">Semaine 1–2</strong>
+        <p style="font-size:.82rem;color:var(--g6);margin-top:4px">Publier vos 20–30 premiers articles. Configurer GSC et soumettre le sitemap.</p>
+      </div>
+      <div style="background:#eff6ff;border:1px solid #bfdbfe;border-radius:var(--r);padding:18px">
+        <div style="font-size:1.4rem;margin-bottom:8px">🕐</div>
+        <strong style="font-size:.88rem">Mois 1</strong>
+        <p style="font-size:.82rem;color:var(--g6);margin-top:4px">Indexation en cours. Premiers visiteurs via réseaux sociaux. 0 à 100 visites/mois.</p>
+      </div>
+      <div style="background:#fdf4ff;border:1px solid #e9d5ff;border-radius:var(--r);padding:18px">
+        <div style="font-size:1.4rem;margin-bottom:8px">📈</div>
+        <strong style="font-size:.88rem">Mois 2–3</strong>
+        <p style="font-size:.82rem;color:var(--g6);margin-top:4px">Google commence à positionner vos articles. 100 à 1 000 visites/mois possibles.</p>
+      </div>
+      <div style="background:#fffbeb;border:1px solid #fde68a;border-radius:var(--r);padding:18px">
+        <div style="font-size:1.4rem;margin-bottom:8px">💰</div>
+        <strong style="font-size:.88rem">Mois 4–6</strong>
+        <p style="font-size:.82rem;color:var(--g6);margin-top:4px">Trafic organique stable. Demandez Google AdSense. Monétisation possible.</p>
+      </div>
+    </div>
+
+    <div class="warn-box">
+      ⏱️ <strong>Patience :</strong> Le SEO prend du temps. Ne publiez pas 30 articles et n'attendez pas de résultats du jour au lendemain. Continuez à publier régulièrement (1–2 articles par semaine) et les résultats viendront.
+    </div>
+
+    <h2>Checklist complète — Lancement SEO</h2>
+    <div id="checklist" style="margin:16px 0"></div>
+
+    <div style="text-align:center;margin-top:40px">
+      <button class="btn btn-primary" onclick="showPage('sitemap')">Voir les 30 articles à indexer →</button>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════ ARTICLE PAGE -->
+<div id="page-article" class="page">
+  <div id="article-hero" class="page-hero" style="text-align:left;max-width:900px;margin:0 auto;padding:56px 24px 20px"></div>
+  <div class="article-layout">
+    <main class="article-main" id="article-content"></main>
+    <aside class="article-sidebar">
+      <div class="ad-banner ad-sidebar"><strong>Google AdSense</strong><br>300×250</div>
+      <div class="sidebar-widget">
+        <h3>Articles populaires</h3>
+        <div id="sidebar-articles"></div>
+      </div>
+    </aside>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════ ABOUT -->
+<div id="page-about" class="page">
+  <div class="page-hero"><h1>À propos d'IAGratuite.fr</h1><p>Notre mission : rendre l'intelligence artificielle accessible à tous, gratuitement.</p></div>
+  <div class="about-content">
+    <h2>Notre mission</h2>
+    <p>IAGratuite.fr est né d'un constat simple : l'intelligence artificielle révolutionne le monde du travail, de l'éducation et de la créativité — mais beaucoup ne savent pas par où commencer, ou pensent que les meilleurs outils coûtent de l'argent.</p>
+    <p>Notre mission est de changer cela. Nous testons, comparons et expliquons les meilleurs outils IA gratuits pour que chacun puisse bénéficier de cette révolution, quel que soit son budget.</p>
+    <h2>Notre approche</h2>
+    <p>Chaque outil présenté sur ce site a été testé par notre équipe. Nos critères : gratuité réelle (ou freemium généreux), qualité des résultats, facilité d'utilisation et utilité concrète. Nous publions des guides pratiques, des comparatifs détaillés et des tutoriels en français.</p>
+    <h2>Transparence</h2>
+    <p>IAGratuite.fr est financé par la publicité (Google AdSense) et des liens d'affiliation. Nos recommandations ne sont jamais influencées par des partenariats commerciaux : nous ne promouvons que ce que nous avons réellement testé et approuvé.</p>
+    <h2>Nous contacter</h2>
+    <p>Une question ou une suggestion ? <a onclick="showPage('contact')" style="color:var(--b5);font-weight:600;cursor:pointer">Contactez notre équipe →</a></p>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════ CONTACT -->
+<div id="page-contact" class="page">
+  <div class="page-hero"><h1>Contactez-nous</h1><p>Une question, un partenariat ou une suggestion ? On vous répond sous 48h.</p></div>
+  <div class="contact-layout">
+    <div class="contact-info">
+      <h2>Parlons-nous</h2>
+      <p>Notre équipe est disponible pour répondre à toutes vos questions sur les outils IA gratuits, les partenariats ou les collaborations éditoriales.</p>
+      <div class="contact-item"><div class="contact-icon">📧</div><div><strong>Email</strong><span>contact@iagratuite.fr</span></div></div>
+      <div class="contact-item"><div class="contact-icon">🐦</div><div><strong>Twitter / X</strong><span>@IAGratuiteFR</span></div></div>
+      <div class="contact-item"><div class="contact-icon">⏱️</div><div><strong>Délai de réponse</strong><span>Sous 48 heures ouvrées</span></div></div>
+    </div>
+    <div>
+      <div class="form-group"><label class="form-label">Votre nom</label><input type="text" class="form-input" placeholder="Marie Dupont"/></div>
+      <div class="form-group"><label class="form-label">Email</label><input type="email" class="form-input" placeholder="marie@exemple.fr"/></div>
+      <div class="form-group"><label class="form-label">Sujet</label><input type="text" class="form-input" placeholder="Question sur un outil IA"/></div>
+      <div class="form-group"><label class="form-label">Message</label><textarea class="form-textarea" placeholder="Votre message…"></textarea></div>
+      <button class="btn btn-primary" style="width:100%;justify-content:center" onclick="document.getElementById('fs').style.display='block'">Envoyer →</button>
+      <div class="form-success" id="fs">✅ Message envoyé ! Nous vous répondrons sous 48h.</div>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div>
+      <div class="footer-logo">🤖 IAGratuite.fr</div>
+      <p style="font-size:.85rem;max-width:270px;margin-bottom:18px">Le guide de référence des meilleurs outils IA gratuits en français. Testé, comparé, approuvé.</p>
+      <p style="font-size:.78rem">© 2026 IAGratuite.fr · Tous droits réservés</p>
+    </div>
+    <div>
+      <h4>Navigation</h4>
+      <ul>
+        <li><a onclick="showPage('home')">Accueil</a></li>
+        <li><a onclick="showPage('blog')">Blog</a></li>
+        <li><a onclick="showPage('sitemap')">Tous les articles</a></li>
+        <li><a onclick="showPage('gsc')">Search Console</a></li>
+        <li><a onclick="showPage('about')">À propos</a></li>
+        <li><a onclick="showPage('contact')">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Catégories</h4>
+      <ul id="footer-cats"></ul>
+    </div>
+    <div>
+      <h4>Mots-clés SEO</h4>
+      <ul>
+        <li><a>outils IA gratuits</a></li>
+        <li><a>meilleurs outils IA</a></li>
+        <li><a>IA gratuite 2026</a></li>
+        <li><a>intelligence artificielle gratuite</a></li>
+        <li><a>ChatGPT gratuit</a></li>
+        <li><a>IA pour étudiants</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span style="color:rgba(255,255,255,.3);font-size:.72rem">SEO Keywords: outils IA gratuits · meilleurs outils IA · IA gratuite 2026 · intelligence artificielle gratuite</span>
+    <span><a style="color:rgba(255,255,255,.3)">Mentions légales</a></span>
+  </div>
+</footer>
+
+<script>
+// ═══════════════════════════ DATA ═══════════════════════════
+
+const TOOLS = [
+  {emoji:'💬',name:'ChatGPT',tag:'Chatbot IA',tagBg:'#dbeafe',tagColor:'#1d4ed8',logoBg:'#f0f9ff',logoColor:'#0ea5e9',desc:"Le chatbot IA le plus populaire au monde. Rédaction, questions-réponses, code et traduction — gratuitement avec GPT-4o mini.",features:['Rédaction','Q&R','Code','Analyse'],rating:'5/5',stars:5},
+  {emoji:'🧠',name:'Claude',tag:'Assistant IA',tagBg:'#f3e8ff',tagColor:'#7e22ce',logoBg:'#fdf4ff',logoColor:'#9333ea',desc:"L'IA d'Anthropic, réputée pour la qualité de ses réponses longues, son raisonnement avancé et la précision de son français.",features:['Rédaction longue','Analyse','Résumé'],rating:'5/5',stars:5},
+  {emoji:'✨',name:'Gemini',tag:'Google IA',tagBg:'#dcfce7',tagColor:'#166534',logoBg:'#f0fdf4',logoColor:'#16a34a',desc:"L'IA de Google intégrée à Gmail, Docs et Drive. Idéal pour la productivité quotidienne dans l'écosystème Google.",features:['Productivité','Google Workspace','Recherche'],rating:'4.5/5',stars:4},
+  {emoji:'🔍',name:'Perplexity AI',tag:'Recherche',tagBg:'#dbeafe',tagColor:'#1e40af',logoBg:'#eff6ff',logoColor:'#2563eb',desc:"Le moteur de recherche IA avec sources citées en temps réel. Indispensable pour la recherche et la veille secteurielle.",features:['Recherche IA','Sources citées','Temps réel'],rating:'4.8/5',stars:5},
+  {emoji:'🎨',name:'Canva IA',tag:'Design',tagBg:'#ffe4f0',tagColor:'#be185d',logoBg:'#fff0f0',logoColor:'#e91e8c',desc:"Créez des présentations, posts et visuels pros avec l'IA intégrée. La version gratuite est très généreuse.",features:['Design','Présentations','Réseaux sociaux'],rating:'4.5/5',stars:4},
+  {emoji:'🖼️',name:'Microsoft Designer',tag:'Images IA',tagBg:'#fef3c7',tagColor:'#92400e',logoBg:'#fffbeb',logoColor:'#d97706',desc:"DALL·E 3 disponible gratuitement via un compte Microsoft. Génération d'images de très haute qualité sans abonnement.",features:['DALL·E 3','Images','Design'],rating:'4/5',stars:4},
+];
+
+const ARTICLES = [
+  {id:'top10',emoji:'🏆',cat:'Comparatif',catColor:'#dbeafe',catTc:'#1d4ed8',title:'10 meilleurs outils IA gratuits en 2026',excerpt:"Notre sélection complète des outils IA incontournables pour 2026 — entièrement gratuits ou freemium généreux.",date:'Mars 2026',time:'8 min',keywords:'outils IA gratuits, meilleurs outils IA 2026'},
+  {id:'etudiants',emoji:'🎓',cat:'Étudiants',catColor:'#dcfce7',catTc:'#166534',title:'Les meilleurs outils IA pour étudiants',excerpt:"Révisions, dissertations, organisation : ces IA gratuites vont transformer votre vie d'étudiant en 2026.",date:'Fév. 2026',time:'6 min',keywords:'IA pour étudiants, outils IA gratuits étudiants'},
+  {id:'images',emoji:'🎨',cat:'Images IA',catColor:'#fdf4ff',catTc:'#7e22ce',title:'Les meilleurs outils IA pour créer des images',excerpt:"Générez des images professionnelles gratuitement grâce aux meilleurs générateurs IA disponibles en 2026.",date:'Fév. 2026',time:'7 min',keywords:'IA gratuite images, générateur image IA gratuit'},
+  {id:'texte',emoji:'✍️',cat:'Rédaction',catColor:'#fff7ed',catTc:'#c2410c',title:'Les meilleurs outils IA pour écrire du texte',excerpt:"Blogueurs, marketeurs : ces IA gratuites vont révolutionner votre manière d'écrire du contenu.",date:'Jan. 2026',time:'5 min',keywords:'IA pour rédaction, écrire avec IA gratuitement'},
+  {id:'travail',emoji:'💼',cat:'Travail',catColor:'#ecfeff',catTc:'#0e7490',title:'Les meilleurs outils IA pour le travail',excerpt:"Productivité, réunions, emails : boostez votre carrière avec ces outils IA gratuits en 2026.",date:'Jan. 2026',time:'6 min',keywords:'IA pour le travail, productivité IA gratuite'},
+  {id:'chatgpt',emoji:'💬',cat:'Guide',catColor:'#eff6ff',catTc:'#1d4ed8',title:'ChatGPT gratuit : guide complet 2026',excerpt:"Tout ce qu'il faut savoir pour utiliser ChatGPT gratuitement : fonctionnalités, limites et astuces.",date:'Mars 2026',time:'9 min',keywords:'ChatGPT gratuit, utiliser ChatGPT sans payer'},
+  {id:'top10-etudiants',emoji:'📚',cat:'Étudiants',catColor:'#dcfce7',catTc:'#166534',title:'Top 10 outils IA pour étudiants en 2026',excerpt:"Le classement complet des 10 meilleures intelligences artificielles gratuites pour réussir vos études.",date:'Mars 2026',time:'7 min',keywords:'top outils IA étudiants, meilleure IA étudiants gratuite'},
+  {id:'pdf',emoji:'📄',cat:'Productivité',catColor:'#f0fdf4',catTc:'#15803d',title:'IA pour résumer un PDF gratuitement',excerpt:"Analysez et résumez n'importe quel document PDF en quelques secondes grâce à l'IA — 100% gratuit.",date:'Fév. 2026',time:'5 min',keywords:'IA résumer PDF, résumé PDF gratuit intelligence artificielle'},
+  {id:'logo',emoji:'🏷️',cat:'Design',catColor:'#ffe4f0',catTc:'#be185d',title:'Les meilleurs outils IA pour créer un logo',excerpt:"Créez un logo professionnel gratuitement grâce aux meilleurs générateurs de logos IA en 2026.",date:'Fév. 2026',time:'6 min',keywords:'IA créer logo gratuit, générateur logo IA'},
+  {id:'livre',emoji:'📖',cat:'Rédaction',catColor:'#fff7ed',catTc:'#c2410c',title:"Les meilleurs outils IA pour écrire un livre",excerpt:"Écrivez votre roman, guide ou essai avec l'aide de l'IA — outils gratuits et méthodes pour auteurs.",date:'Jan. 2026',time:'8 min',keywords:'IA écrire un livre, rédiger roman IA gratuit'},
+  {id:'cv',emoji:'📋',cat:'Carrière',catColor:'#fdf4ff',catTc:'#7e22ce',title:'Les meilleurs outils IA pour créer un CV',excerpt:"Créez un CV impressionnant en quelques minutes grâce aux meilleurs outils IA gratuits en 2026.",date:'Jan. 2026',time:'5 min',keywords:'IA créer CV, CV avec intelligence artificielle gratuit'},
+  {id:'traduction',emoji:'🌍',cat:'Traduction',catColor:'#ecfeff',catTc:'#0e7490',title:'Les meilleurs outils IA pour traduire',excerpt:"Traducez des textes, documents et sites web avec précision grâce aux meilleures IA de traduction gratuites.",date:'Mars 2026',time:'5 min',keywords:'IA traduction gratuite, traducteur IA 2026'},
+  {id:'code',emoji:'💻',cat:'Développement',catColor:'#f0f9ff',catTc:'#0369a1',title:'Les meilleurs outils IA pour coder gratuitement',excerpt:"Déboguer, écrire et optimiser du code avec l'IA — les meilleurs assistants de programmation gratuits.",date:'Fév. 2026',time:'7 min',keywords:'IA pour coder, assistant code IA gratuit 2026'},
+  {id:'video',emoji:'🎬',cat:'Vidéo',catColor:'#fff7ed',catTc:'#c2410c',title:'Les meilleurs outils IA pour créer des vidéos',excerpt:"Générez, éditez et améliorez des vidéos avec l'IA — les meilleurs outils gratuits ou freemium de 2026.",date:'Mars 2026',time:'7 min',keywords:'IA créer vidéo gratuit, générateur vidéo IA'},
+  {id:'musique',emoji:'🎵',cat:'Créatif',catColor:'#fdf4ff',catTc:'#7e22ce',title:'Les meilleurs outils IA pour créer de la musique',excerpt:"Composez de la musique originale gratuitement grâce aux derniers générateurs de musique IA.",date:'Jan. 2026',time:'6 min',keywords:'IA créer musique gratuite, générateur musique IA'},
+  {id:'seo',emoji:'📊',cat:'Marketing',catColor:'#dcfce7',catTc:'#166534',title:'Les meilleurs outils IA pour le SEO',excerpt:"Optimisez votre référencement naturel avec l'IA — analyse de mots-clés, rédaction SEO et audit de site.",date:'Fév. 2026',time:'8 min',keywords:'IA pour SEO, outils SEO gratuits IA 2026'},
+  {id:'reseaux',emoji:'📱',cat:'Marketing',catColor:'#dcfce7',catTc:'#166534',title:'Les meilleurs outils IA pour les réseaux sociaux',excerpt:"Créez des posts viraux, des visuels engageants et planifiez votre contenu avec les IA gratuites.",date:'Mars 2026',time:'6 min',keywords:'IA réseaux sociaux gratuit, contenu social media IA'},
+  {id:'email',emoji:'📧',cat:'Marketing',catColor:'#dcfce7',catTc:'#166534',title:'Les meilleurs outils IA pour écrire des emails',excerpt:"Rédigez des emails professionnels, commerciaux et engageants en quelques secondes grâce à l'IA.",date:'Jan. 2026',time:'4 min',keywords:'IA rédiger email, assistant email IA gratuit'},
+  {id:'transcription',emoji:'🎙️',cat:'Productivité',catColor:'#f0fdf4',catTc:'#15803d',title:'Les meilleurs outils IA pour transcrire l\'audio',excerpt:"Transcrivez automatiquement vos réunions, podcasts et interviews en texte grâce aux IA gratuites.",date:'Fév. 2026',time:'5 min',keywords:'IA transcription audio gratuite, transcrire audio IA'},
+  {id:'presentation',emoji:'📊',cat:'Productivité',catColor:'#f0fdf4',catTc:'#15803d',title:'Les meilleurs outils IA pour créer des présentations',excerpt:"Créez des présentations PowerPoint et Google Slides professionnelles en quelques minutes avec l'IA.",date:'Fév. 2026',time:'6 min',keywords:'IA créer présentation gratuit, PowerPoint IA'},
+  {id:'claude-guide',emoji:'🧠',cat:'Guide',catColor:'#eff6ff',catTc:'#1d4ed8',title:'Claude IA : guide complet gratuit 2026',excerpt:"Tout sur Claude d'Anthropic : fonctionnalités, version gratuite, comparaison avec ChatGPT et astuces.",date:'Mars 2026',time:'8 min',keywords:'Claude IA gratuit, Anthropic Claude tutoriel'},
+  {id:'gemini-guide',emoji:'✨',cat:'Guide',catColor:'#eff6ff',catTc:'#1d4ed8',title:'Google Gemini : guide complet gratuit 2026',excerpt:"Maîtrisez Google Gemini gratuitement — intégrations Google Workspace, fonctionnalités et meilleures pratiques.",date:'Mars 2026',time:'7 min',keywords:'Gemini Google gratuit, Google IA guide complet'},
+  {id:'perplexity-guide',emoji:'🔍',cat:'Guide',catColor:'#eff6ff',catTc:'#1d4ed8',title:'Perplexity AI : le moteur de recherche de l\'avenir',excerpt:"Découvrez Perplexity, l'IA qui révolutionne la recherche en ligne avec des réponses sourcées en temps réel.",date:'Fév. 2026',time:'6 min',keywords:'Perplexity AI gratuit, recherche IA avec sources'},
+  {id:'lycee',emoji:'🏫',cat:'Étudiants',catColor:'#dcfce7',catTc:'#166534',title:'Meilleurs outils IA pour lycéens',excerpt:"Bac, révisions, TPE et orientation : les meilleurs outils IA gratuits adaptés aux lycéens en 2026.",date:'Jan. 2026',time:'5 min',keywords:'IA pour lycéens, intelligence artificielle lycée gratuit'},
+  {id:'freelance',emoji:'💼',cat:'Carrière',catColor:'#fdf4ff',catTc:'#7e22ce',title:'Meilleurs outils IA pour freelances',excerpt:"En tant que freelance, l'IA peut multiplier votre productivité par 3. Voici les meilleurs outils gratuits.",date:'Mars 2026',time:'7 min',keywords:'IA pour freelances, outils IA freelance gratuit'},
+  {id:'cuisine',emoji:'🍳',cat:'Créatif',catColor:'#fdf4ff',catTc:'#7e22ce',title:'Meilleurs outils IA pour la cuisine et les recettes',excerpt:"L'IA peut générer des recettes personnalisées, planifier vos repas et vous aider à cuisiner mieux — gratuitement.",date:'Jan. 2026',time:'4 min',keywords:'IA pour recettes, intelligence artificielle cuisine gratuit'},
+  {id:'sante',emoji:'🏥',cat:'Santé',catColor:'#f0fdf4',catTc:'#15803d',title:'Meilleurs outils IA pour la santé et le bien-être',excerpt:"Des IA gratuites pour suivre votre santé, mieux dormir, gérer le stress et adopter de bonnes habitudes.",date:'Fév. 2026',time:'6 min',keywords:'IA pour la santé gratuit, bien-être intelligence artificielle'},
+  {id:'langue',emoji:'🗣️',cat:'Éducation',catColor:'#ecfeff',catTc:'#0e7490',title:'Meilleurs outils IA pour apprendre une langue',excerpt:"Apprenez l'anglais, l'espagnol ou toute autre langue gratuitement avec les meilleures IA d'apprentissage.",date:'Jan. 2026',time:'6 min',keywords:'IA apprendre langue, apprentissage langue IA gratuit'},
+  {id:'ia-vs',emoji:'⚔️',cat:'Comparatif',catColor:'#dbeafe',catTc:'#1d4ed8',title:'ChatGPT vs Claude vs Gemini : comparatif 2026',excerpt:"Quelle est la meilleure IA gratuite en 2026 ? Comparatif détaillé des 3 grands chatbots IA.",date:'Mars 2026',time:'10 min',keywords:'ChatGPT vs Claude, meilleure IA gratuite comparatif'},
+  {id:'debutants',emoji:'👶',cat:'Guide',catColor:'#eff6ff',catTc:'#1d4ed8',title:'Comment démarrer avec l\'IA gratuit pour débutants',excerpt:"Vous n'avez jamais utilisé l'IA ? Ce guide pour débutants complets vous explique tout, étape par étape.",date:'Mars 2026',time:'7 min',keywords:'IA pour débutants, commencer avec intelligence artificielle gratuit'},
+];
+
+const CATEGORIES = [...new Set(ARTICLES.map(a=>a.cat))];
+
+// ═══════════════════════════ RENDER FUNCTIONS ═══════════════════════════
+
+function renderTools(){
+  const el = document.getElementById('tools-grid');
+  if(!el) return;
+  el.innerHTML = TOOLS.map(t=>`
+    <div class="tool-card">
+      <div class="tool-header">
+        <div class="tool-logo" style="background:${t.logoBg};color:${t.logoColor}">${t.emoji}</div>
+        <div>
+          <div class="tool-name">${t.name}</div>
+          <span class="tool-tag" style="background:${t.tagBg};color:${t.tagColor}">${t.tag}</span>
+        </div>
+      </div>
+      <p class="tool-desc">${t.desc}</p>
+      <div class="tool-features">${t.features.map(f=>`<span class="fp">${f}</span>`).join('')}</div>
+      <div class="tool-footer">
+        <div><span class="stars">${'★'.repeat(t.stars)}</span><span class="rating-label">${t.rating}</span></div>
+        <span class="tool-link">Voir la fiche →</span>
+      </div>
+    </div>
+  `).join('');
+}
+
+function articleCardHTML(a){
+  return `
+    <div class="article-card" onclick="openArticle('${a.id}')">
+      <div class="article-thumb" style="background:linear-gradient(135deg,${a.catColor},${a.catColor}bb)">${a.emoji}</div>
+      <div class="article-body">
+        <div class="article-cat" style="color:${a.catTc}">${a.cat}</div>
+        <h3 class="article-title">${a.title}</h3>
+        <p class="article-excerpt">${a.excerpt}</p>
+        <div class="article-meta"><span>${a.date} · ${a.time}</span><span class="read-more">Lire →</span></div>
+      </div>
+    </div>`;
+}
+
+function renderHomeArticles(){
+  const el = document.getElementById('home-articles');
+  if(!el) return;
+  el.innerHTML = ARTICLES.slice(0,12).map(articleCardHTML).join('');
+}
+
+let currentPage = 1;
+let currentFilter = 'Tous';
+const perPage = 9;
+
+function renderBlog(){
+  const filtered = currentFilter==='Tous' ? ARTICLES : ARTICLES.filter(a=>a.cat===currentFilter);
+  const total = Math.ceil(filtered.length/perPage);
+  const slice = filtered.slice((currentPage-1)*perPage, currentPage*perPage);
+  document.getElementById('blog-articles').innerHTML = slice.map(articleCardHTML).join('');
+  // pagination
+  let pg = '';
+  for(let i=1;i<=total;i++) pg+=`<button class="page-btn${i===currentPage?' active':''}" onclick="gotoPage(${i})">${i}</button>`;
+  document.getElementById('blog-pagination').innerHTML = pg;
+  // filters
+  const fb = document.getElementById('filter-bar');
+  if(fb && !fb.hasChildNodes()){
+    fb.innerHTML = ['Tous',...CATEGORIES].map(c=>`<button class="filter-btn${c===currentFilter?' active':''}" onclick="filterBlog('${c}',this)">${c}</button>`).join('');
+  }
+}
+
+function gotoPage(n){ currentPage=n; renderBlog(); window.scrollTo({top:0,behavior:'smooth'}); }
+function filterBlog(cat,btn){
+  currentFilter=cat; currentPage=1;
+  document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  renderBlog();
+}
+
+function renderSitemap(){
+  const el = document.getElementById('sitemap-content');
+  if(!el) return;
+  let html = '';
+  CATEGORIES.forEach(cat=>{
+    const arts = ARTICLES.filter(a=>a.cat===cat);
+    html += `<h2>${cat} <span style="font-size:.8rem;font-weight:400;color:var(--g4)">(${arts.length} article${arts.length>1?'s':''})</span></h2>
+    <div class="sitemap-grid">
+      ${arts.map(a=>`
+        <div class="sitemap-item" onclick="openArticle('${a.id}')">
+          <div class="si-title">${a.emoji} ${a.title}</div>
+          <div class="si-url">/${a.id}</div>
+          <div class="si-cat">${a.date} · ${a.time}</div>
+        </div>`).join('')}
+    </div>`;
+  });
+  el.innerHTML = html;
+}
+
+function renderFooterCats(){
+  const el = document.getElementById('footer-cats');
+  if(el) el.innerHTML = CATEGORIES.slice(0,6).map(c=>`<li><a onclick="filterBlog('${c}',document.createElement('button'));showPage('blog')">${c}</a></li>`).join('');
+}
+
+function openArticle(id){
+  const a = ARTICLES.find(x=>x.id===id);
+  if(!a) return;
+
+  document.getElementById('article-hero').innerHTML = `
+    <div style="font-size:.75rem;font-weight:700;color:var(--b5);letter-spacing:.08em;text-transform:uppercase;margin-bottom:10px">${a.emoji} ${a.cat}</div>
+    <h1>${a.title}</h1>
+    <p style="color:var(--g6);margin-top:8px">Publié ${a.date} · ${a.time} de lecture · <em>Mots-clés : ${a.keywords}</em></p>`;
+
+  document.getElementById('article-content').innerHTML = generateArticleContent(a);
+
+  // sidebar
+  const others = ARTICLES.filter(x=>x.id!==id).slice(0,4);
+  document.getElementById('sidebar-articles').innerHTML = others.map(o=>`
+    <div class="sidebar-art" onclick="openArticle('${o.id}')">
+      <div class="sidebar-thumb" style="background:${o.catColor}">${o.emoji}</div>
+      <div><p>${o.title}</p><span>${o.date}</span></div>
+    </div>`).join('');
+
+  showPage('article');
+}
+
+function generateArticleContent(a){
+  // Generic rich article template per article
+  const templates = {
+    'top10': top10Content,
+    'etudiants': etudiantsContent,
+    'images': imagesContent,
+    'texte': texteContent,
+    'travail': travailContent,
+    'chatgpt': chatgptContent,
+    'pdf': pdfContent,
+    'logo': logoContent,
+    'livre': livreContent,
+    'cv': cvContent,
+    'ia-vs': iaVsContent,
+    'debutants': debutantsContent,
+  };
+  if(templates[a.id]) return templates[a.id]();
+  return genericContent(a);
+}
+
+function genericContent(a){
+  return `
+    <p class="article-intro">Découvrez les meilleurs outils IA gratuits pour "${a.title.toLowerCase()}" — testés et comparés par notre équipe en 2026.</p>
+    <div class="ad-banner ad-wide"><strong>Google AdSense</strong> · 728×90</div>
+    <h2>Pourquoi utiliser l'IA pour cette tâche ?</h2>
+    <p>En 2026, l'intelligence artificielle a atteint un niveau de maturité qui permet d'automatiser et d'améliorer considérablement de nombreuses tâches. Les outils présentés ici sont tous gratuits (ou freemium très généreux) et ne nécessitent aucune compétence technique.</p>
+    <h2>Les meilleurs outils IA gratuits</h2>
+    <p>Voici notre sélection des outils les plus efficaces pour cette catégorie, testés par notre équipe :</p>
+    <h3>1. ChatGPT — L'incontournable</h3>
+    <p>ChatGPT reste le couteau suisse de l'IA. Sa version gratuite (GPT-4o mini) gère efficacement la majorité des cas d'usage dans cette catégorie.</p>
+    <div class="pros-cons">
+      <div class="pros"><h4>✅ Avantages</h4><ul><li>Facilité d'utilisation</li><li>Multi-langues</li><li>Gratuit sans carte bancaire</li></ul></div>
+      <div class="cons"><h4>❌ Inconvénients</h4><ul><li>Limites de messages en gratuit</li><li>Données envoyées aux serveurs OpenAI</li></ul></div>
+    </div>
+    <h3>2. Claude — La qualité rédactionnelle</h3>
+    <p>Claude d'Anthropic est particulièrement apprécié pour la qualité et la nuance de ses réponses en français. Idéal pour les tâches nécessitant précision et profondeur.</p>
+    <h3>3. Gemini — L'intégration Google</h3>
+    <p>Si vous utilisez l'écosystème Google, Gemini s'intègre naturellement à vos outils quotidiens : Gmail, Google Docs, Drive et bien d'autres.</p>
+    <div class="how-to">
+      <h3>🚀 Comment commencer</h3>
+      <div class="step"><div class="step-num">1</div><p>Créez un compte gratuit sur l'outil de votre choix.</p></div>
+      <div class="step"><div class="step-num">2</div><p>Décrivez votre tâche clairement et en détail.</p></div>
+      <div class="step"><div class="step-num">3</div><p>Affinez les résultats en ajoutant des précisions.</p></div>
+      <div class="step"><div class="step-num">4</div><p>Vérifiez et personnalisez le résultat obtenu.</p></div>
+    </div>
+    <div class="ad-banner ad-wide"><strong>Google AdSense</strong> · 728×90</div>
+    <h2>Conseils pour de meilleurs résultats</h2>
+    <ul><li><strong>Soyez précis</strong> dans vos demandes — plus de détails = meilleure réponse</li><li><strong>Itérez</strong> — demandez des améliorations ou variantes</li><li><strong>Vérifiez</strong> les informations importantes — l'IA peut se tromper</li><li><strong>Combinez les outils</strong> — chaque IA a ses points forts</li></ul>
+    <h2>Conclusion</h2>
+    <p>Ces outils IA gratuits peuvent transformer radicalement votre façon de travailler sur ce type de tâche. L'essentiel est de commencer par en tester un, de vous familiariser avec ses fonctionnalités, puis d'explorer les autres selon vos besoins spécifiques.</p>
+    <p>Des questions ? <span onclick="showPage('contact')" style="color:var(--b5);cursor:pointer;font-weight:600">Contactez notre équipe →</span></p>`;
+}
+
+function top10Content(){return`
+  <p class="article-intro">En 2026, l'IA n'est plus réservée aux grandes entreprises. Voici les 10 meilleurs outils IA gratuits à utiliser absolument cette année.</p>
+  <div class="ad-banner ad-wide"><strong>Google AdSense</strong> · 728×90</div>
+  <h2>1. ChatGPT — Le chatbot IA numéro 1</h2>
+  <p>ChatGPT d'OpenAI reste le plus populaire au monde. La version gratuite donne accès à GPT-4o mini, capable de rédiger, analyser, coder et traduire.</p>
+  <div class="pros-cons"><div class="pros"><h4>✅ Avantages</h4><ul><li>Interface ultra simple</li><li>Excellente compréhension du français</li><li>Analyse d'images incluse</li></ul></div><div class="cons"><h4>❌ Inconvénients</h4><ul><li>Limites de messages GPT-4o</li><li>Pas de navigation web en gratuit</li></ul></div></div>
+  <h2>2. Claude — La meilleure qualité rédactionnelle</h2>
+  <p>Claude d'Anthropic excelle dans la rédaction longue et l'analyse de documents. Son français est remarquablement naturel.</p>
+  <h2>3. Gemini — L'IA Google intégrée à votre vie</h2>
+  <p>Intégré à Gmail, Docs et Drive. La version gratuite propose Gemini 1.5 Flash, rapide et efficace pour les tâches quotidiennes.</p>
+  <h2>4. Perplexity AI — Le moteur de recherche IA</h2>
+  <p>Chaque réponse est accompagnée de ses sources. Indispensable pour la recherche et la veille sectorielle.</p>
+  <h2>5. Microsoft Copilot — L'IA dans l'écosystème Microsoft</h2>
+  <p>Gratuit dans Edge, Bing et Windows. Propulsé par GPT-4 et DALL·E 3 pour textes et images.</p>
+  <h2>6. Canva IA — Le design accessible à tous</h2>
+  <p>Génération d'images, suppression d'arrière-plan, présentations automatiques — tout dans une interface simple.</p>
+  <h2>7. Microsoft Designer — DALL·E 3 gratuit</h2>
+  <p>Le meilleur générateur d'images gratuit en 2026, propulsé par DALL·E 3. Accessible avec n'importe quel compte Microsoft.</p>
+  <h2>8. Otter.ai — Transcription automatique</h2>
+  <p>300 minutes de transcription/mois gratuitement. Idéal pour les réunions, interviews et podcasts.</p>
+  <h2>9. Notion AI — Prise de notes intelligente</h2>
+  <p>Résume, améliore et génère du contenu directement dans votre espace Notion. Essai gratuit disponible.</p>
+  <h2>10. ElevenLabs — Voix IA réalistes</h2>
+  <p>10 000 caractères/mois gratuits pour créer des voix off ultra-réalistes. Parfait pour YouTube et podcasts.</p>
+  <div class="how-to"><h3>🚀 Par où commencer ?</h3>
+  <div class="step"><div class="step-num">1</div><p><strong>Débutants :</strong> Commencez par ChatGPT ou Claude — créez un compte gratuit en 2 minutes.</p></div>
+  <div class="step"><div class="step-num">2</div><p><strong>Visuels :</strong> Testez Microsoft Designer pour vos premières images IA.</p></div>
+  <div class="step"><div class="step-num">3</div><p><strong>Recherche :</strong> Adoptez Perplexity AI pour remplacer Google dans vos recherches complexes.</p></div>
+  <div class="step"><div class="step-num">4</div><p><strong>Avancé :</strong> Combinez plusieurs outils selon vos besoins spécifiques.</p></div></div>
+  <div class="ad-banner ad-wide"><strong>Google AdSense</strong> · 728×90</div>
+  <h2>Conclusion</h2>
+  <p>En 2026, il n'y a aucune raison de payer pour accéder à des outils IA de qualité. Ces 10 outils couvrent tous vos besoins. Commencez par ChatGPT ou Claude, explorez Canva pour les visuels, et Perplexity pour la recherche. La combinaison de ces outils gratuits vous donnera une puissance créative et productive inégalée.</p>`;}
+
+function etudiantsContent(){return`
+  <p class="article-intro">Révisions, dissertations, organisation : ces outils IA gratuits vont transformer votre vie d'étudiant en 2026.</p>
+  <div class="ad-banner ad-wide"><strong>Google AdSense</strong> · 728×90</div>
+  <h2>1. ChatGPT — Votre tuteur IA personnel 24/7</h2>
+  <p>ChatGPT peut expliquer des concepts complexes simplement, créer des quiz de révision, corriger vos textes et générer des plans de dissertation — à toute heure.</p>
+  <div class="pros-cons"><div class="pros"><h4>✅ Pour les études</h4><ul><li>Explique tous les sujets</li><li>Crée des fiches de révision</li><li>Corrige grammaire et style</li><li>Disponible 24h/24</li></ul></div><div class="cons"><h4>❌ Attention</h4><ul><li>Vérifiez toujours les faits</li><li>Ne remplace pas la réflexion personnelle</li></ul></div></div>
+  <h2>2. Perplexity AI — Recherches académiques sourcées</h2>
+  <p>Pour vos travaux de recherche, Perplexity fournit des réponses avec sources citées. Indispensable pour trouver des informations fiables rapidement.</p>
+  <h2>3. Notion AI — Organisation et prise de notes</h2>
+  <p>Résumez vos cours, créez des plannings de révision et structurez vos projets de groupe automatiquement.</p>
+  <h2>4. Canva IA — Exposés visuellement impactants</h2>
+  <p>Générez des présentations professionnelles en quelques minutes pour vos exposés et soutenances.</p>
+  <h2>5. LanguageTool — Correction parfaite du français</h2>
+  <p>La meilleure alternative gratuite à Grammarly pour le français. Extension navigateur disponible gratuitement.</p>
+  <div class="how-to"><h3>📚 Utiliser l'IA pour réviser efficacement</h3>
+  <div class="step"><div class="step-num">1</div><p>Demandez à ChatGPT de créer 20 questions de QCM sur votre chapitre.</p></div>
+  <div class="step"><div class="step-num">2</div><p>Soumettez votre brouillon de dissertation pour une correction détaillée.</p></div>
+  <div class="step"><div class="step-num">3</div><p>Demandez une explication simple d'un concept difficile avec des analogies.</p></div>
+  <div class="step"><div class="step-num">4</div><p>Faites générer une fiche de révision résumée sur n'importe quel sujet.</p></div></div>
+  <div class="ad-banner ad-wide"><strong>Google AdSense</strong> · 728×90</div>
+  <h2>Conclusion</h2>
+  <p>L'IA peut multiplier votre efficacité d'apprentissage par 2 ou 3. Utilisez-la comme un assistant qui amplifie votre travail — pas comme un remplaçant à votre réflexion. L'objectif est de comprendre et d'apprendre, pas juste d'obtenir une réponse.</p>`;}
+
+function imagesContent(){return`
+  <p class="article-intro">Générez des images professionnelles gratuitement grâce aux meilleurs générateurs IA disponibles en 2026 — aucune compétence en design requise.</p>
+  <div class="ad-banner ad-wide"><strong>Google AdSense</strong> · 728×90</div>
+  <h2>1. Microsoft Designer — DALL·E 3 gratuit</h2>
+  <p>Microsoft Designer, propulsé par DALL·E 3, est le meilleur générateur d'images IA gratuit en 2026. Accessible avec un compte Microsoft gratuit.</p>
+  <div class="pros-cons"><div class="pros"><h4>✅ Avantages</h4><ul><li>DALL·E 3 qualité premium</li><li>Interface en français</li><li>Boosts gratuits chaque semaine</li></ul></div><div class="cons"><h4>❌ Inconvénients</h4><ul><li>Limite de générations/jour</li><li>Nécessite un compte Microsoft</li></ul></div></div>
+  <h2>2. Canva IA — Générer et éditer en même temps</h2>
+  <p>Canva intègre un générateur d'images IA dans son éditeur. Idéal pour créer des visuels pour vos réseaux sociaux ou présentations.</p>
+  <h2>3. Adobe Firefly — Qualité professionnelle</h2>
+  <p>Adobe Firefly propose des crédits gratuits mensuels. Images légalement sûres, entraîné sur des contenus licenciés.</p>
+  <h2>4. Stable Diffusion (en ligne) — Contrôle maximal</h2>
+  <p>Via Hugging Face ou DreamStudio, accédez gratuitement à Stable Diffusion pour des générations plus personnalisées.</p>
+  <div class="how-to"><h3>🖼️ Créer votre première image IA</h3>
+  <div class="step"><div class="step-num">1</div><p>Allez sur <strong>designer.microsoft.com</strong> — connectez-vous avec un compte Microsoft gratuit.</p></div>
+  <div class="step"><div class="step-num">2</div><p>Décrivez l'image souhaitée en détail : style, couleurs, format, ambiance.</p></div>
+  <div class="step"><div class="step-num">3</div><p>Choisissez parmi les 4 variantes générées.</p></div>
+  <div class="step"><div class="step-num">4</div><p>Téléchargez en haute résolution gratuitement.</p></div></div>
+  <div class="ad-banner ad-wide"><strong>Google AdSense</strong> · 728×90</div>
+  <h2>Conseils pour de meilleures images IA</h2>
+  <ul><li><strong>Soyez ultra-précis</strong> : décrivez le style (photo réaliste, illustration, aquarelle, 3D)</li><li><strong>Mentionnez la lumière</strong> : lumière naturelle, studio, dorée, heure bleue</li><li><strong>Précisez le format</strong> : horizontal 16:9, carré, portrait</li><li><strong>Itérez</strong> : générez plusieurs versions et affinez votre description</li></ul>
+  <h2>Conclusion</h2>
+  <p>Microsoft Designer est notre choix n°1 pour débuter avec la génération d'images IA gratuitement. Pour les créateurs de contenu, Canva offre l'écosystème le plus complet. En 2026, créer des visuels professionnels est accessible à tous — gratuitement.</p>`;}
+
+function texteContent(){return`
+  <p class="article-intro">Blogueurs, marketeurs, rédacteurs : ces outils IA gratuits vont révolutionner votre façon d'écrire du contenu en 2026.</p>
+  <div class="ad-banner ad-wide"><strong>Google AdSense</strong> · 728×90</div>
+  <h2>1. Claude — La meilleure IA pour la rédaction</h2>
+  <p>Claude d'Anthropic produit des textes longs, naturels et bien structurés en français impeccable. Notre choix n°1 pour la rédaction de contenu.</p>
+  <div class="pros-cons"><div class="pros"><h4>✅ Points forts</h4><ul><li>Français naturel et idiomatique</li><li>Articles longs de grande qualité</li><li>Ton ajustable selon vos besoins</li><li>Analyse de documents existants</li></ul></div><div class="cons"><h4>❌ Limites</h4><ul><li>Nombre de messages limité en gratuit</li><li>Pas de génération d'images</li></ul></div></div>
+  <h2>2. ChatGPT — Polyvalence et vitesse</h2>
+  <p>Incontournable pour titres accrocheurs, méta-descriptions SEO, posts réseaux sociaux, emails et descriptions produits.</p>
+  <h2>3. Notion AI — Dans votre espace de travail</h2>
+  <p>Générez du contenu directement dans vos pages Notion, améliorez vos écrits existants ou transformez des notes en articles structurés.</p>
+  <h2>4. LanguageTool — Correction parfaite</h2>
+  <p>Correction orthographique et grammaticale de qualité pour le français. Extension navigateur gratuite disponible.</p>
+  <div class="how-to"><h3>✍️ Rédiger un article de blog avec l'IA</h3>
+  <div class="step"><div class="step-num">1</div><p>Demandez un plan détaillé en 5 parties avec introduction et conclusion.</p></div>
+  <div class="step"><div class="step-num">2</div><p>Faites développer chaque section une par une pour plus de qualité.</p></div>
+  <div class="step"><div class="step-num">3</div><p>Demandez 5 variantes de titres SEO et choisissez le meilleur.</p></div>
+  <div class="step"><div class="step-num">4</div><p>Faites générer méta-description et résumé pour les réseaux sociaux.</p></div></div>
+  <div class="ad-banner ad-wide"><strong>Google AdSense</strong> · 728×90</div>
+  <h2>Conclusion</h2>
+  <p>Combinez Claude pour les articles longs, ChatGPT pour la variété des formats, et LanguageTool pour la correction finale. Ces trois outils gratuits forment un trio rédactionnel imbattable.</p>`;}
+
+function travailContent(){return`
+  <p class="article-intro">Productivité, réunions, emails : boostez votre carrière avec ces outils IA gratuits en 2026.</p>
+  <div class="ad-banner ad-wide"><strong>Google AdSense</strong> · 728×90</div>
+  <h2>1. Gemini dans Google Workspace</h2>
+  <p>Intégré nativement dans Gmail, Docs, Sheets et Drive. Résumez des emails, rédigez des rapports et analysez des données sans quitter votre environnement habituel.</p>
+  <div class="pros-cons"><div class="pros"><h4>✅ Pour le travail</h4><ul><li>Intégré aux outils Google</li><li>Résumé automatique d'emails</li><li>Analyse de tableurs</li><li>Pas d'outil supplémentaire</li></ul></div><div class="cons"><h4>❌ Limites</h4><ul><li>Limité à l'écosystème Google</li><li>Certaines fonctions en payant</li></ul></div></div>
+  <h2>2. Microsoft Copilot — L'IA Office</h2>
+  <p>Gratuit dans Edge, Bing et Windows. Intégration dans Word, Excel, PowerPoint et Teams pour automatiser les tâches chronophages.</p>
+  <h2>3. Otter.ai — Transcription de réunions</h2>
+  <p>300 minutes gratuites/mois. Transcrivez et résumez automatiquement vos réunions, appels et interviews.</p>
+  <h2>4. Perplexity AI — Veille professionnelle</h2>
+  <p>Recherche et synthèse des informations les plus récentes sur votre secteur, vos concurrents ou vos clients, avec sources vérifiées.</p>
+  <div class="how-to"><h3>💼 Préparer une réunion avec l'IA</h3>
+  <div class="step"><div class="step-num">1</div><p>Copiez l'ordre du jour et vos notes dans ChatGPT ou Claude.</p></div>
+  <div class="step"><div class="step-num">2</div><p>Demandez un résumé des points clés et des questions pertinentes à poser.</p></div>
+  <div class="step"><div class="step-num">3</div><p>Après la réunion, collez vos notes brutes pour générer un compte-rendu structuré.</p></div>
+  <div class="step"><div class="step-num">4</div><p>Faites extraire les prochaines étapes et assignations automatiquement.</p></div></div>
+  <div class="ad-banner ad-wide"><strong>Google AdSense</strong> · 728×90</div>
+  <h2>Conclusion</h2>
+  <p>Commencez par intégrer l'IA dans vos tâches les plus répétitives : emails, comptes-rendus, recherches. Chaque heure économisée est une heure investie dans des tâches à plus haute valeur ajoutée.</p>`;}
+
+function chatgptContent(){return`
+  <p class="article-intro">ChatGPT est l'outil IA le plus utilisé au monde. Comment en tirer le maximum avec la version gratuite en 2026 ? Ce guide complet vous explique tout.</p>
+  <div class="ad-banner ad-wide"><strong>Google AdSense</strong> · 728×90</div>
+  <h2>Qu'est-ce que ChatGPT ?</h2>
+  <p>ChatGPT est un assistant IA conversationnel développé par OpenAI, lancé en novembre 2022. En 2026, il compte plus de 200 millions d'utilisateurs actifs dans le monde. La version gratuite donne accès à GPT-4o mini, un modèle très capable pour la rédaction, les questions-réponses, le code et la traduction.</p>
+  <h2>Ce que vous pouvez faire gratuitement</h2>
+  <ul><li>Répondre à des questions sur presque tous les sujets</li><li>Rédiger, corriger et améliorer vos textes en français</li><li>Traduire des documents dans plus de 50 langues</li><li>Écrire et déboguer du code informatique</li><li>Analyser des images (avec limites)</li><li>Créer des plans, résumés et synthèses</li></ul>
+  <div class="pros-cons"><div class="pros"><h4>✅ ChatGPT gratuit</h4><ul><li>Accès à GPT-4o (limité)</li><li>Interface en français</li><li>Applications iOS et Android</li><li>Aucune carte bancaire</li></ul></div><div class="cons"><h4>❌ Limites</h4><ul><li>Messages GPT-4o limités/heure</li><li>Pas de navigation web</li><li>Pas de Custom GPTs</li></ul></div></div>
+  <div class="how-to"><h3>🚀 Créer votre compte ChatGPT gratuit</h3>
+  <div class="step"><div class="step-num">1</div><p>Allez sur <strong>chat.openai.com</strong></p></div>
+  <div class="step"><div class="step-num">2</div><p>Cliquez sur "S'inscrire" — email ou connexion Google/Microsoft</p></div>
+  <div class="step"><div class="step-num">3</div><p>Confirmez votre email</p></div>
+  <div class="step"><div class="step-num">4</div><p>Choisissez "Continuer gratuitement" si on vous propose ChatGPT Plus</p></div>
+  <div class="step"><div class="step-num">5</div><p>Vous pouvez commencer ! Tapez votre première question en français.</p></div></div>
+  <h2>10 astuces pour de meilleurs résultats</h2>
+  <ul><li><strong>Soyez précis</strong> — plus de détails = meilleure réponse</li><li><strong>Définissez un rôle</strong> — "Tu es un expert SEO..."</li><li><strong>Demandez des exemples</strong> — "Donne-moi 3 exemples de..."</li><li><strong>Itérez</strong> — demandez d'améliorer, reformuler, approfondir</li><li><strong>Utilisez le contexte</strong> — collez vos documents dans le chat</li><li><strong>Spécifiez le format</strong> — "en tableau", "en bullet points"</li><li><strong>Vérifiez les faits</strong> — ChatGPT peut se tromper</li><li><strong>Changez de modèle</strong> — GPT-4o pour les tâches complexes</li><li><strong>Sauvegardez vos prompts</strong> — ceux qui marchent, gardez-les</li><li><strong>Utilisez les conversations</strong> — le contexte s'accumule dans la session</li></ul>
+  <div class="ad-banner ad-wide"><strong>Google AdSense</strong> · 728×90</div>
+  <h2>ChatGPT gratuit vs. Plus (20€/mois) — vaut-il le coup ?</h2>
+  <p>ChatGPT Plus donne accès à GPT-4o illimité, la navigation web, les Custom GPTs et DALL·E 3. Pour la majorité des utilisateurs occasionnels, la version gratuite combinée à Claude et Gemini offre un niveau de service excellent sans aucun coût.</p>
+  <h2>Conclusion</h2>
+  <p>ChatGPT reste l'outil IA n°1 pour démarrer. Maîtrisez l'art du "prompting" et vous obtiendrez des résultats impressionnants sans dépenser un centime.</p>`;}
+
+function pdfContent(){return`
+  <p class="article-intro">Analysez et résumez n'importe quel document PDF en quelques secondes grâce à l'IA — sans payer quoi que ce soit en 2026.</p>
+  <div class="ad-banner ad-wide"><strong>Google AdSense</strong> · 728×90</div>
+  <h2>Pourquoi utiliser l'IA pour résumer un PDF ?</h2>
+  <p>Les rapports, thèses, contrats et articles académiques peuvent faire des centaines de pages. L'IA peut analyser l'intégralité d'un document et en extraire les informations essentielles en quelques secondes — vous faisant économiser des heures de lecture.</p>
+  <h2>1. Claude — La meilleure IA pour analyser des PDFs</h2>
+  <p>Claude d'Anthropic est le champion incontesté pour l'analyse de documents. Sa fenêtre de contexte très large lui permet de traiter des documents entiers. La version gratuite accepte des fichiers PDF de taille raisonnable.</p>
+  <div class="pros-cons"><div class="pros"><h4>✅ Points forts</h4><ul><li>Analyse de documents entiers</li><li>Résumés détaillés et structurés</li><li>Questions-réponses sur le document</li><li>Extraction de données clés</li></ul></div><div class="cons"><h4>❌ Limites</h4><ul><li>Taille de fichier limitée en gratuit</li><li>Nombre de sessions limité</li></ul></div></div>
+  <div class="how-to"><h3>📄 Résumer un PDF avec Claude</h3>
+  <div class="step"><div class="step-num">1</div><p>Allez sur <strong>claude.ai</strong> et créez un compte gratuit.</p></div>
+  <div class="step"><div class="step-num">2</div><p>Cliquez sur l'icône "Joindre un fichier" et téléversez votre PDF.</p></div>
+  <div class="step"><div class="step-num">3</div><p>Écrivez votre demande : "Résume ce document en 5 points clés" ou "Quelles sont les conclusions principales ?"</p></div>
+  <div class="step"><div class="step-num">4</div><p>Posez des questions supplémentaires sur le document : "Quelle est la méthodologie utilisée ?"</p></div></div>
+  <h2>2. ChatGPT — Alternative polyvalente</h2>
+  <p>ChatGPT accepte également les PDFs dans sa version gratuite. Pratique pour des analyses rapides et des extractions d'informations spécifiques.</p>
+  <h2>3. Adobe Acrobat AI — Spécialisé PDF</h2>
+  <p>Adobe propose une IA intégrée à Acrobat Reader avec des crédits gratuits. Spécialement optimisée pour les documents PDF professionnels.</p>
+  <div class="ad-banner ad-wide"><strong>Google AdSense</strong> · 728×90</div>
+  <h2>Cas d'usage pratiques</h2>
+  <ul><li><strong>Étudiants :</strong> Résumez des thèses et articles académiques en minutes</li><li><strong>Juristes :</strong> Analysez des contrats et identifiez les clauses importantes</li><li><strong>Chercheurs :</strong> Extrayez les résultats clés d'études scientifiques</li><li><strong>Managers :</strong> Digérez des rapports annuels et présentations longues</li></ul>
+  <h2>Conclusion</h2>
+  <p>Claude est notre recommandation principale pour résumer des PDFs gratuitement. Sa capacité à analyser des documents entiers et à répondre à des questions précises en fait l'outil idéal pour tous ceux qui travaillent avec de nombreux documents.</p>`;}
+
+function logoContent(){return`
+  <p class="article-intro">Créez un logo professionnel gratuitement grâce aux meilleurs générateurs de logos IA disponibles en 2026 — sans compétences en design.</p>
+  <div class="ad-banner ad-wide"><strong>Google AdSense</strong> · 728×90</div>
+  <h2>1. Canva IA — Le plus complet et gratuit</h2>
+  <p>Canva propose un générateur de logos IA dans sa version gratuite. Choisissez parmi des templates professionnels et personnalisez avec l'IA intégrée.</p>
+  <div class="pros-cons"><div class="pros"><h4>✅ Avantages</h4><ul><li>Version gratuite très complète</li><li>Milliers de templates</li><li>Interface en français</li><li>Téléchargement PNG gratuit</li></ul></div><div class="cons"><h4>❌ Inconvénients</h4><ul><li>Format vectoriel (SVG) en payant</li><li>Designs parfois génériques</li></ul></div></div>
+  <h2>2. Looka — Génération IA de logos</h2>
+  <p>Looka génère des logos professionnels basés sur vos préférences de style, couleurs et industrie. Prévisualisation gratuite, téléchargement payant — mais les previews permettent d'avoir des idées.</p>
+  <h2>3. Microsoft Designer — Logos créatifs</h2>
+  <p>Via DALL·E 3, Microsoft Designer peut générer des visuels de logo uniques. Idéal pour des logos artistiques ou créatifs non conventionnels.</p>
+  <h2>4. Hatchful by Shopify — 100% gratuit</h2>
+  <p>Hatchful est entièrement gratuit et permet de créer des logos professionnels pour différents secteurs. Simple et efficace pour les entrepreneurs.</p>
+  <div class="how-to"><h3>🏷️ Créer votre logo avec Canva</h3>
+  <div class="step"><div class="step-num">1</div><p>Allez sur <strong>canva.com</strong> et créez un compte gratuit.</p></div>
+  <div class="step"><div class="step-num">2</div><p>Recherchez "Logo" et choisissez un template dans votre secteur.</p></div>
+  <div class="step"><div class="step-num">3</div><p>Personnalisez les couleurs, la police et le texte.</p></div>
+  <div class="step"><div class="step-num">4</div><p>Utilisez l'IA de Canva pour générer des éléments graphiques uniques.</p></div>
+  <div class="step"><div class="step-num">5</div><p>Téléchargez en PNG haute résolution gratuitement.</p></div></div>
+  <div class="ad-banner ad-wide"><strong>Google AdSense</strong> · 728×90</div>
+  <h2>Conseils pour un bon logo IA</h2>
+  <ul><li>Choisissez maximum 2 couleurs pour la cohérence</li><li>Optez pour une police lisible même en petit format</li><li>Testez votre logo en noir et blanc — il doit fonctionner sans couleur</li><li>Assurez-vous qu'il soit lisible sur fond blanc ET fond sombre</li></ul>
+  <h2>Conclusion</h2>
+  <p>Canva est notre recommandation principale pour créer un logo professionnel gratuitement. Pour des logos 100% uniques, utilisez Microsoft Designer pour générer des éléments visuels originaux à intégrer ensuite dans Canva.</p>`;}
+
+function livreContent(){return`
+  <p class="article-intro">Vous rêvez d'écrire un roman, un guide ou un essai ? Ces outils IA gratuits peuvent transformer votre projet d'écriture en 2026.</p>
+  <div class="ad-banner ad-wide"><strong>Google AdSense</strong> · 728×90</div>
+  <h2>Peut-on vraiment écrire un livre avec l'IA ?</h2>
+  <p>L'IA ne va pas écrire votre livre à votre place — et ce n'est pas le but. Elle peut en revanche vous aider à surmonter le syndrome de la page blanche, structurer vos idées, améliorer votre style et vous aider à maintenir une cohérence narrative sur la longueur.</p>
+  <h2>1. Claude — Le meilleur pour l'écriture longue</h2>
+  <p>Claude excelle dans la rédaction longue et maintient la cohérence narrative sur de nombreux chapitres. Sa mémoire de la conversation permet de garder le fil de votre histoire.</p>
+  <div class="pros-cons"><div class="pros"><h4>✅ Pour l'écriture d'un livre</h4><ul><li>Cohérence narrative excellente</li><li>Style littéraire naturel</li><li>Suggestions de dialogues et descriptions</li><li>Aide à la structure narrative</li></ul></div><div class="cons"><h4>❌ Limites</h4><ul><li>Mémoire réinitialisée entre sessions</li><li>Limite de longueur par réponse</li></ul></div></div>
+  <h2>2. ChatGPT — Brainstorming et structure</h2>
+  <p>Idéal pour le brainstorming de personnages, la création d'intrigues secondaires, le développement du worldbuilding et les séances de "qu'est-ce qui se passe ensuite ?"</p>
+  <div class="how-to"><h3>📖 Méthode pour écrire un livre avec l'IA</h3>
+  <div class="step"><div class="step-num">1</div><p><strong>Plan général :</strong> Demandez à l'IA de vous aider à créer un plan en 3 actes avec 10 chapitres.</p></div>
+  <div class="step"><div class="step-num">2</div><p><strong>Fiches personnages :</strong> Créez des fiches détaillées pour chaque personnage principal.</p></div>
+  <div class="step"><div class="step-num">3</div><p><strong>Chapitre par chapitre :</strong> Écrivez avec l'IA comme co-auteur, en gardant le contrôle de votre voix.</p></div>
+  <div class="step"><div class="step-num">4</div><p><strong>Révision :</strong> Soumettez vos chapitres pour améliorer le style, la clarté et la fluidité.</p></div></div>
+  <div class="ad-banner ad-wide"><strong>Google AdSense</strong> · 728×90</div>
+  <h2>Conseils pour garder votre voix d'auteur</h2>
+  <ul><li>Donnez des exemples de votre style à l'IA pour qu'elle s'y adapte</li><li>Réécrivez systématiquement les suggestions de l'IA avec vos propres mots</li><li>Utilisez l'IA pour débloquer, pas pour remplacer votre créativité</li><li>Maintenez un "journal de personnages" séparé pour la cohérence</li></ul>
+  <h2>Conclusion</h2>
+  <p>L'IA est un extraordinaire outil pour les auteurs — elle peut vous aider à écrire plus, plus vite et parfois mieux. Mais votre voix, votre vision et vos émotions restent irremplaçables. Utilisez-la comme un partenaire d'écriture, pas comme un ghostwriter.</p>`;}
+
+function cvContent(){return`
+  <p class="article-intro">Créez un CV qui impressionne les recruteurs en quelques minutes grâce aux meilleurs outils IA gratuits disponibles en 2026.</p>
+  <div class="ad-banner ad-wide"><strong>Google AdSense</strong> · 728×90</div>
+  <h2>Pourquoi utiliser l'IA pour son CV ?</h2>
+  <p>Les recruteurs passent en moyenne 7 secondes sur un CV. L'IA peut vous aider à rédiger des formulations percutantes, à quantifier vos réalisations et à adapter votre CV à chaque offre d'emploi — multipliant vos chances d'être appelé en entretien.</p>
+  <h2>1. Canva IA — Design professionnel gratuit</h2>
+  <p>Canva propose des dizaines de templates de CV professionnels. Sa version gratuite est très complète pour créer un CV visuellement impactant.</p>
+  <div class="pros-cons"><div class="pros"><h4>✅ Avantages</h4><ul><li>Templates professionnels</li><li>Design moderne et personnalisable</li><li>Export PDF gratuit</li><li>Facile à mettre à jour</li></ul></div><div class="cons"><h4>❌ Inconvénients</h4><ul><li>Certains templates en payant</li><li>Moins bien lu par les ATS (logiciels RH)</li></ul></div></div>
+  <h2>2. ChatGPT ou Claude — Rédiger le contenu</h2>
+  <p>Utilisez ChatGPT ou Claude pour rédiger des formulations percutantes, transformer vos missions en réalisations quantifiées et adapter votre CV à chaque offre.</p>
+  <div class="how-to"><h3>📋 Créer un CV parfait avec l'IA</h3>
+  <div class="step"><div class="step-num">1</div><p>Listez vos expériences brutes dans ChatGPT ou Claude.</p></div>
+  <div class="step"><div class="step-num">2</div><p>Demandez de transformer chaque mission en réalisation quantifiée ("Géré une équipe de 5 personnes" → "Dirigé une équipe de 5 personnes, augmentant la productivité de 30%").</p></div>
+  <div class="step"><div class="step-num">3</div><p>Copiez l'offre d'emploi et demandez d'adapter votre CV aux mots-clés de l'annonce.</p></div>
+  <div class="step"><div class="step-num">4</div><p>Collez le contenu dans un template Canva professionnel.</p></div>
+  <div class="step"><div class="step-num">5</div><p>Exportez en PDF et soumettez votre candidature.</p></div></div>
+  <h2>3. Resume.io — Spécialisé CV avec IA</h2>
+  <p>Resume.io propose des templates optimisés pour les ATS (logiciels de tri automatique des candidatures) avec des suggestions IA pour chaque section.</p>
+  <div class="ad-banner ad-wide"><strong>Google AdSense</strong> · 728×90</div>
+  <h2>Prompts utiles pour votre CV</h2>
+  <ul><li>"Transforme ces missions en bullet points de réalisations quantifiées"</li><li>"Écris un résumé professionnel percutant pour ce profil"</li><li>"Adapte ce CV aux mots-clés de cette offre d'emploi"</li><li>"Quels mots-clés manquent dans mon CV pour ce poste ?"</li></ul>
+  <h2>Conclusion</h2>
+  <p>En 2026, ne pas utiliser l'IA pour optimiser son CV, c'est se désavantager par rapport aux autres candidats. Ces outils gratuits peuvent faire la différence entre être ignoré ou décrocher un entretien.</p>`;}
+
+function iaVsContent(){return`
+  <p class="article-intro">ChatGPT, Claude ou Gemini : quelle est la meilleure IA gratuite en 2026 ? Comparatif détaillé basé sur nos tests intensifs.</p>
+  <div class="ad-banner ad-wide"><strong>Google AdSense</strong> · 728×90</div>
+  <h2>Les 3 grands chatbots IA gratuits en 2026</h2>
+  <p>En 2026, trois chatbots IA dominent le marché avec des versions gratuites généreuses : ChatGPT (OpenAI), Claude (Anthropic) et Gemini (Google). Chacun a ses forces et ses faiblesses.</p>
+  <h2>Comparatif rapide</h2>
+  <div style="overflow-x:auto;margin:16px 0"><table style="width:100%;border-collapse:collapse;font-size:.88rem">
+    <thead><tr style="background:var(--b0)">
+      <th style="padding:12px;text-align:left;border:1px solid var(--g2)">Critère</th>
+      <th style="padding:12px;text-align:center;border:1px solid var(--g2)">ChatGPT</th>
+      <th style="padding:12px;text-align:center;border:1px solid var(--g2)">Claude</th>
+      <th style="padding:12px;text-align:center;border:1px solid var(--g2)">Gemini</th>
+    </tr></thead>
+    <tbody>
+      <tr><td style="padding:10px;border:1px solid var(--g2)"><strong>Rédaction en français</strong></td><td style="padding:10px;text-align:center;border:1px solid var(--g2)">⭐⭐⭐⭐</td><td style="padding:10px;text-align:center;border:1px solid var(--g2)">⭐⭐⭐⭐⭐</td><td style="padding:10px;text-align:center;border:1px solid var(--g2)">⭐⭐⭐⭐</td></tr>
+      <tr style="background:var(--g0)"><td style="padding:10px;border:1px solid var(--g2)"><strong>Analyse de documents</strong></td><td style="padding:10px;text-align:center;border:1px solid var(--g2)">⭐⭐⭐⭐</td><td style="padding:10px;text-align:center;border:1px solid var(--g2)">⭐⭐⭐⭐⭐</td><td style="padding:10px;text-align:center;border:1px solid var(--g2)">⭐⭐⭐</td></tr>
+      <tr><td style="padding:10px;border:1px solid var(--g2)"><strong>Code</strong></td><td style="padding:10px;text-align:center;border:1px solid var(--g2)">⭐⭐⭐⭐⭐</td><td style="padding:10px;text-align:center;border:1px solid var(--g2)">⭐⭐⭐⭐</td><td style="padding:10px;text-align:center;border:1px solid var(--g2)">⭐⭐⭐⭐</td></tr>
+      <tr style="background:var(--g0)"><td style="padding:10px;border:1px solid var(--g2)"><strong>Intégration outils</strong></td><td style="padding:10px;text-align:center;border:1px solid var(--g2)">⭐⭐⭐</td><td style="padding:10px;text-align:center;border:1px solid var(--g2)">⭐⭐⭐</td><td style="padding:10px;text-align:center;border:1px solid var(--g2)">⭐⭐⭐⭐⭐</td></tr>
+      <tr><td style="padding:10px;border:1px solid var(--g2)"><strong>Limite en gratuit</strong></td><td style="padding:10px;text-align:center;border:1px solid var(--g2)">Modérée</td><td style="padding:10px;text-align:center;border:1px solid var(--g2)">Modérée</td><td style="padding:10px;text-align:center;border:1px solid var(--g2)">Généreuse</td></tr>
+    </tbody>
+  </table></div>
+  <h2>ChatGPT — Le plus populaire</h2>
+  <p>ChatGPT reste la référence pour sa polyvalence. Idéal pour tout type de tâche, avec une communauté massive et des ressources abondantes en ligne.</p>
+  <p><strong>Meilleur pour :</strong> Polyvalence, code, rapidité, ecosystème riche</p>
+  <h2>Claude — La meilleure qualité</h2>
+  <p>Claude produit des textes d'une qualité remarquable, en particulier pour le français. Sa fenêtre de contexte large le rend imbattable pour l'analyse de longs documents.</p>
+  <p><strong>Meilleur pour :</strong> Rédaction longue, analyse de documents, nuance, éthique</p>
+  <h2>Gemini — L'intégration Google</h2>
+  <p>Gemini est le choix évident si vous vivez dans l'écosystème Google. Son intégration native dans tous les produits Google en fait l'IA la plus pratique au quotidien.</p>
+  <p><strong>Meilleur pour :</strong> Productivité Google, recherche en temps réel, utilisateurs Google Workspace</p>
+  <div class="how-to"><h3>🎯 Quel outil choisir ?</h3>
+  <div class="step"><div class="step-num">1</div><p><strong>Débutant :</strong> Commencez par ChatGPT — le plus connu, le plus de ressources en ligne.</p></div>
+  <div class="step"><div class="step-num">2</div><p><strong>Rédacteur :</strong> Optez pour Claude — meilleure qualité de texte en français.</p></div>
+  <div class="step"><div class="step-num">3</div><p><strong>Utilisateur Google :</strong> Gemini s'intègre parfaitement à votre workflow existant.</p></div>
+  <div class="step"><div class="step-num">4</div><p><strong>Pro :</strong> Utilisez les trois selon les besoins — c'est la stratégie des experts.</p></div></div>
+  <div class="ad-banner ad-wide"><strong>Google AdSense</strong> · 728×90</div>
+  <h2>Notre verdict</h2>
+  <p>Il n'y a pas de "meilleure" IA — chacune excelle dans des domaines différents. La stratégie gagnante en 2026 est d'utiliser les trois : ChatGPT pour la polyvalence, Claude pour la rédaction de qualité, et Gemini pour l'intégration dans votre vie quotidienne Google. Tous gratuits.</p>`;}
+
+function debutantsContent(){return`
+  <p class="article-intro">Vous n'avez jamais utilisé l'IA ? Pas de panique. Ce guide complet pour débutants vous explique tout, étape par étape, sans jargon technique.</p>
+  <div class="ad-banner ad-wide"><strong>Google AdSense</strong> · 728×90</div>
+  <h2>Qu'est-ce que l'intelligence artificielle ?</h2>
+  <p>L'intelligence artificielle (IA) désigne des logiciels capables d'effectuer des tâches qui nécessitaient auparavant l'intelligence humaine : comprendre du texte, générer des images, répondre à des questions, traduire des langues, écrire du code...</p>
+  <p>En pratique, pour vous, l'IA c'est très simple : vous écrivez une question ou une demande en français, et l'IA vous répond — comme vous tchatteriez avec quelqu'un de très compétent.</p>
+  <h2>Par où commencer ?</h2>
+  <p>Notre recommandation pour un débutant absolu : <strong>ChatGPT</strong>. C'est le plus connu, le plus simple, et il existe des millions de tutoriels et exemples en ligne.</p>
+  <div class="how-to"><h3>👶 Votre premier contact avec l'IA</h3>
+  <div class="step"><div class="step-num">1</div><p>Allez sur <strong>chat.openai.com</strong> depuis votre navigateur (Chrome, Firefox, Safari...).</p></div>
+  <div class="step"><div class="step-num">2</div><p>Cliquez sur "S'inscrire" et créez un compte gratuit avec votre email.</p></div>
+  <div class="step"><div class="step-num">3</div><p>Cliquez sur "Continuer gratuitement" si on vous propose un abonnement payant.</p></div>
+  <div class="step"><div class="step-num">4</div><p>Dans la barre de chat, tapez votre première question : "Bonjour ! Peux-tu m'expliquer ce qu'est l'IA en termes simples ?"</p></div>
+  <div class="step"><div class="step-num">5</div><p>Lisez la réponse et posez d'autres questions — c'est aussi simple que ça !</p></div></div>
+  <h2>5 premières choses à essayer avec l'IA</h2>
+  <ul>
+    <li style="margin-bottom:12px"><strong>Poser une question :</strong> "Quelle est la capitale de l'Australie ?" (pour tester)</li>
+    <li style="margin-bottom:12px"><strong>Demander une recette :</strong> "Donne-moi une recette de tarte aux pommes facile"</li>
+    <li style="margin-bottom:12px"><strong>Corriger un texte :</strong> Copiez-collez un email et demandez "Peux-tu améliorer cet email ?"</li>
+    <li style="margin-bottom:12px"><strong>Obtenir des conseils :</strong> "Quels sont les meilleurs livres pour apprendre le jardinage ?"</li>
+    <li style="margin-bottom:12px"><strong>Traduire :</strong> "Traduis ce texte en anglais : Bonjour, comment puis-je vous aider ?"</li>
+  </ul>
+  <div class="pros-cons"><div class="pros"><h4>✅ Ce que l'IA sait faire</h4><ul><li>Répondre à des questions</li><li>Rédiger et corriger des textes</li><li>Expliquer des concepts</li><li>Traduire des langues</li><li>Générer des idées</li></ul></div><div class="cons"><h4>❌ Ce que l'IA ne fait pas</h4><ul><li>Garantir l'exactitude des faits</li><li>Connaître les événements très récents</li><li>Remplacer un médecin ou avocat</li><li>Accéder à vos fichiers personnels</li></ul></div></div>
+  <div class="ad-banner ad-wide"><strong>Google AdSense</strong> · 728×90</div>
+  <h2>La règle d'or pour les débutants</h2>
+  <p>Traitez l'IA comme un assistant très compétent mais pas infaillible. Elle peut se tromper, inventer des informations ou avoir des données obsolètes. <strong>Vérifiez toujours les informations importantes</strong> auprès de sources officielles.</p>
+  <h2>Conclusion</h2>
+  <p>L'IA n'est pas réservée aux experts en informatique. En 2026, elle est accessible à tous, gratuitement, et peut vous simplifier la vie au quotidien. Commencez par ChatGPT, expérimentez sans peur, et découvrez peu à peu toutes ses capacités. Bienvenue dans l'ère de l'IA !</p>`;}
+
+// ═══════════════════════════ CHECKLIST GSC ═══════════════════════════
+function renderChecklist(){
+  const el = document.getElementById('checklist');
+  if(!el) return;
+  const items = [
+    {text:'Créer un compte Google Search Console',done:false},
+    {text:'Ajouter votre site en tant que propriété',done:false},
+    {text:'Vérifier la propriété du site (balise HTML)',done:false},
+    {text:'Créer votre fichier sitemap.xml',done:false},
+    {text:'Soumettre le sitemap dans GSC',done:false},
+    {text:'Demander l\'indexation des 30 articles',done:false},
+    {text:'Installer Google Analytics (gratuit)',done:false},
+    {text:'Publier au moins 15 articles',done:false},
+    {text:'Attendre 2-4 semaines avant de vérifier les résultats',done:false},
+    {text:'Vérifier les erreurs dans le rapport "Couverture"',done:false},
+    {text:'Analyser les requêtes qui amènent du trafic',done:false},
+    {text:'Soumettre votre candidature Google AdSense (après 15+ articles)',done:false},
+  ];
+  el.innerHTML = items.map((item,i)=>`
+    <div style="display:flex;align-items:center;gap:12px;padding:12px 0;border-bottom:1px solid var(--g2)">
+      <input type="checkbox" id="chk${i}" style="width:18px;height:18px;cursor:pointer" onchange="this.parentElement.querySelector('label').style.textDecoration=this.checked?'line-through':'none';this.parentElement.querySelector('label').style.color=this.checked?'var(--g4)':'inherit'"/>
+      <label for="chk${i}" style="font-size:.9rem;cursor:pointer">${item.text}</label>
+    </div>`).join('');
+}
+
+// ═══════════════════════════ NAV ═══════════════════════════
+function showPage(id){
+  document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
+  const el = document.getElementById('page-'+id);
+  if(el){ el.classList.add('active'); window.scrollTo({top:0,behavior:'smooth'}); }
+  if(id==='blog') renderBlog();
+  if(id==='sitemap') renderSitemap();
+  if(id==='gsc') renderChecklist();
+}
+function setActive(el){
+  document.querySelectorAll('.nav-links a').forEach(a=>a.classList.remove('active'));
+  el.classList.add('active');
+}
+
+// ═══════════════════════════ INIT ═══════════════════════════
+renderTools();
+renderHomeArticles();
+renderFooterCats();
+
+// Schema.org
+const schema={
+  "@context":"https://schema.org",
+  "@type":"WebSite",
+  "name":"Les meilleurs outils IA gratuits",
+  "url":"https://iagratuite.fr",
+  "description":"Guides et comparatifs des meilleurs outils IA gratuits en 2026.",
+  "potentialAction":{"@type":"SearchAction","target":"https://iagratuite.fr/?q={search_term_string}","query-input":"required name=search_term_string"}
+};
+const s=document.createElement('script');s.type='application/ld+json';s.textContent=JSON.stringify(schema);document.head.appendChild(s);
+</script>
+</body>
+</html>
